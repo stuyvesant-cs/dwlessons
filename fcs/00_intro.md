@@ -20,7 +20,7 @@ margin: 1px;
 template: main
 
 ## Foundations of Computer Science
-### MKS21QA
+### MKS21QA (formerly Intro CS)
 ### Teacher: Mr. Dyrland-Weaver (Mr. DW)
 #### Useful information:
 - Class website: www.stuycs.org/fcs00-dw
