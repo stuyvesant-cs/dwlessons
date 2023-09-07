@@ -23,7 +23,7 @@ template: main
 ### MKS21QA
 ### Teacher: Mr. Dyrland-Weaver (Mr. DW)
 #### Useful information:
-- Class website: www.stuycs.org/nextcs-dw
+- Class website: www.stuycs.org/fcs-dw
 - Email address: dw@stuy.edu
 - Office: 301
   - Free periods: 6, 7, 8
