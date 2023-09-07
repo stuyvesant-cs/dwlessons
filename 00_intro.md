@@ -13,7 +13,7 @@ margin: 1px;
   padding-left: 2px;
   padding-right: 2px;
 }
-h4 {font-size: 1.5em}
+/*h4 {font-size: 1.5em}*/
 </style>
 
 ---
@@ -35,11 +35,10 @@ template: main
 
 .center[![Analog & Digital](img/00_anglog_dig.png)]
 
-<figure>
-  <img src="img/00_analog_fbk_dev.gif">
-  <figcaption>Analog Feedback Device</figcaption>
-</figure>
-
+| | |
+|---|---|
+| <img src="img/full_00_analog_fbk_dev.gif" width="400" height="360"> | <img src="img/00_dig_fbk_dev.png" width="400" height="360"> |
+| Analog Feedback Device | Digital Feedback Device |
 
 ---
 template: main
