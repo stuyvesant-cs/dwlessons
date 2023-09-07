@@ -31,5 +31,18 @@ Useful information:
 ---
 template: main
 
+#### Class Procedures
+
+.center[![Analog & Digital](img/00_anglog_dig.png)]
+
+<figure>
+  <img src="img/00_analog_fbk_dev.gif">
+  <figcaption>Analog Feedback Device</figcaption>
+</figure>
+
+
+---
+template: main
+
 ### Delaney Cards!
 .center[![dcards](img/00_delaney_example.jpg)]
