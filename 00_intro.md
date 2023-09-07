@@ -31,5 +31,5 @@ Useful information:
 ---
 template: main
 
-## Delaney Cards!
+### Delaney Cards!
 .center[![dcards](img/00_delaney_example.jpg)]
