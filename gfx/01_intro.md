@@ -23,7 +23,7 @@ template: main
 ### MKS66C
 ### Teacher: Mr. Dyrland-Weaver (Mr. DW)
 #### Useful information:
-- Class website: www.stuycs.org/fcs00-dw
+- Class website: www.stuycs.org/graphics-dw
 - Email address: dw@stuy.edu
 - Office: 301
   - Free periods: 6, 7, 8
