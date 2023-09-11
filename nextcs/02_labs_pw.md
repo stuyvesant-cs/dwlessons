@@ -1,6 +1,6 @@
 name: main
 .aim[<div>
-fcs: Getting to Know Your StuyCS Account
+nextcs: Getting to Know Your StuyCS Account
 </div>]
 
 <style>
@@ -18,16 +18,6 @@ margin-bottom: 30px;
   padding-left: 2px;
   padding-right: 2px;
   color: green;
-}
-.remark-code {
-  display: block;
-  width: fit-content;
-  background-color: lightgray;
-  color: green;
-  font-size: 1em;
-  border-radius: 3px;
-  padding-left: 2px;
-  padding-right: 2px;
 }
 li {
   padding-bottom: .33em;
@@ -171,7 +161,6 @@ template: main
 
 --
 6. Log back into the computer with your newly set password.
-
 ---
 template: main
 
@@ -182,6 +171,6 @@ In your TableBuddy+™ groups:
 1. Re-introduce yourselves.
 2. Ponder & discuss the following questions:
    - What do you think you will be learning in this class?
-   - What is Computer Science?
+   - What do you want to learn in this class?
 3. Select a representative from your group to report back to the class on your findings.
 4. Reporter should make a note of their findings in their notebook.
