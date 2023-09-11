@@ -4,38 +4,6 @@ name: main
 gfx: The Colors, Man.
 </div>]
 
-<style>
-.aim {
-font-size: 1em;
-font-weight: bold;
-border-bottom: 1px solid;
-margin-top: -15px;
-margin-left: -10px;
-margin-bottom: 30px;
-}
-li {
-  padding-bottom: .33em;
-}
-.remark-inline-code {
-  background-color: lightgray;
-  border-radius: 3px;
-  padding-left: 2px;
-  padding-right: 2px;
-  color: green;
-}
-.remark-code {
-  display: block;
-  width: fit-content;
-  background-color: lightgray;
-  color: green;
-  font-size: 1em;
-  border-radius: 3px;
-  padding-left: 2px;
-  padding-right: 2px;
-}
-/*h4 {font-size: 1.5em}*/
-</style>
-
 ---
 template: main
 

@@ -3,27 +3,6 @@ name: main
 nextcs: Getting to Know Your StuyCS Account
 </div>]
 
-<style>
-.aim {
-font-size: 1em;
-font-weight: bold;
-border-bottom: 1px solid;
-margin-top: -15px;
-margin-left: -10px;
-margin-bottom: 30px;
-}
-.remark-inline-code {
-  background-color: lightgray;
-  border-radius: 3px;
-  padding-left: 2px;
-  padding-right: 2px;
-  color: green;
-}
-li {
-  padding-bottom: .33em;
-}
-</style>
-
 ---
 template: main
 

@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+  font-family: 'Open Sans';
+}
+.remark-slide-content {
+  background: #40476D;
+  color: #F4D1AE;
+  font-size: 1.5em;
+  padding: 20px;
+}
+h1, h2, h3, h4 {
+  /*font-family: 'Yanone Kaffeesatz';*/
+  /*font-weight: normal;*/
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.aim {
+font-size: 1em;
+font-weight: bold;
+border-bottom: 1px solid;
+margin-top: -15px;
+margin-left: -10px;
+margin-bottom: 30px;
+}
+li {
+  padding-bottom: .33em;
+}
+.remark-inline-code {
+  font-family: 'Ubuntu Mono';
+  background-color: lightgray;
+  border-radius: 3px;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: green;
+}
+.remark-code {
+  font-family: 'Ubuntu Mono';
+  display: block;
+  width: fit-content;
+  background-color: lightgray;
+  color: green;
+  font-size: 1em;
+  border-radius: 3px;
+  padding-left: 2px;
+  padding-right: 2px;
+}

@@ -3,37 +3,6 @@ name: main
 fcs: Getting to Know Your StuyCS Account
 </div>]
 
-<style>
-.aim {
-font-size: 1em;
-font-weight: bold;
-border-bottom: 1px solid;
-margin-top: -15px;
-margin-left: -10px;
-margin-bottom: 30px;
-}
-.remark-inline-code {
-  background-color: lightgray;
-  border-radius: 3px;
-  padding-left: 2px;
-  padding-right: 2px;
-  color: green;
-}
-.remark-code {
-  display: block;
-  width: fit-content;
-  background-color: lightgray;
-  color: green;
-  font-size: 1em;
-  border-radius: 3px;
-  padding-left: 2px;
-  padding-right: 2px;
-}
-li {
-  padding-bottom: .33em;
-}
-</style>
-
 ---
 template: main
 
