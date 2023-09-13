@@ -16,7 +16,28 @@
         sourceUrl: '03_algorithms.md',
         ratio: '16:9',
         countIncrementalSlides: false,
-         slideNumberFormat: ''
+        slideNumberFormat: '',
+
+        /*
+        timer:  {
+          formatter: function (elapsedTime) {
+            var toatlTime = 41 * 1000 * 60 * 60;
+            var left = totalTime - elapsedTime;
+            //console.log(left);
+            var millis = left % 1000; left = Math.floor(left / 1000);
+            var seconds = left % 60; left = Math.floor(left / 60);
+            var minutes = left % 60; left = Math.floor(left / 60);
+            var hours = left;
+
+
+
+            return hours + ':' + ([minutes, seconds]
+              .map(function (d) { return '' + d; })
+              .map(function (s) { return s.length < 2 ? '0' + s : s; })
+              .join(':'));
+          }//formatter
+        }//timer
+        */
       });
     </script>
   </body>
