@@ -3,6 +3,7 @@
 *.class
 *.swp
 *~
+scratch.md
 
 # Folders
 build/

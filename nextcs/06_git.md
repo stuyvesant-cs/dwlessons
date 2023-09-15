@@ -161,7 +161,7 @@ Follow these instructions to upload your work from Wednesday. Check in with your
 3. Open a terminal, clone your repository into your home directory:
    - `$ git clone SSH_LINK`
 4. Change into the cloned repository:
-   - `$cd REPOSITORY` (if you dont know the name of your repository, try `ls`).
+   - `$cd REPOSITORY` (if you don't know the name of your repository, try `ls`).
 
 ---
 template: main
