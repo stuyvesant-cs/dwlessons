@@ -13,8 +13,8 @@ void drawLightning(int x, int y, int numParts) {
     x = nextx;
     y = nexty;
     count++;
-  }
-}
+  }//while
+}//drawLightning
 
 void setup() {
   size (500, 500);
@@ -25,4 +25,4 @@ void setup() {
   drawLightning(int(random(375, 500)), 0, 40);
 
   //saveFrame("a07_lightning.png");
-}
+}//setup
