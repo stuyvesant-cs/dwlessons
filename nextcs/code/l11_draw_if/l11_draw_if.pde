@@ -1,15 +1,13 @@
-int x = 0;
+ int x;
 
 void setup() {
   size(600, 400);
   frameRate(10);
+  x = 0;
 }//setup
 
 void draw() {
   background(0, 255, 0);
-  //int x = int(random(0, width - 50));
-  //int y = int(random(0, height - 50));
-
   int y = 0;
   
   if (x < width/2 ) {

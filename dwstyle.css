@@ -59,3 +59,22 @@ table, td, th {
 td {
   padding: 5px;
 }
+
+/* for side by side layouts
+markdown example:
+.cols[
+.fifty[
+left hand stuff foes here
+]
+
+.fifty[
+right hand stuff goes here
+]
+]
+*/
+.cols {
+  display: flex;
+}
+.fifty {
+  flex: 50%;
+}

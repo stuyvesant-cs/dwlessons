@@ -12,9 +12,12 @@
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.5.0/dist/mermaid.min.js">
+    </script>
+
     <script>
       var slideshow = remark.create({
-        sourceUrl: '11_test_review.md',
+        sourceUrl: '13_flow.md',
         ratio: '16:9',
         countIncrementalSlides: false,
         slideNumberFormat: '',
@@ -40,5 +43,23 @@
         }//timer
         */
       });
-    </script>
+      mermaid.initialize({
+        startOnLoad: false,
+        cloneCssStyles: false,
+        useMaxWidth:true
+      });
+      function initMermaid(s) {
+        var diagrams = document.querySelectorAll('.mermaid');
+        var i;
+        for(i=0;i<diagrams.length;i++){
+          if(diagrams[i].offsetWidth>0){
+            mermaid.init(undefined, diagrams[i]);
+          }
+        }
+      }
+      slideshow.on('afterShowSlide', initMermaid);
+      initMermaid(slideshow.getSlides()[slideshow.getCurrentSlideIndex()]);
+      </script>
+      <script>mermaid.initialize({startOnLoad:true});</script>
+      </script>
   </body>
