@@ -10,13 +10,13 @@ template: main
 ### Do Now
 Use the flowchart below and the values `n = 48.5794` `p = 10` to make a test case flowchart.
 
-<div class="mermaid" width="500px">
+```mermaid
 flowchart LR;
   id0([foo]) -- n,p --> id1[n * p];
   id1 -- result0 --> id2[round\nresult0];
-  id2 -- result1 --> id3[r1 / p];
+  id2 -- result1 --> id3[result1 / p];
   id3 -- result2 --> id4([END]);
-</div>
+```
 
 The function `round(x)` will return `x` rounded to the nearest integer.
 
