@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Foundations of Computer Science</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../dwstyle.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.5.0/dist/mermaid.min.js">
+    </script>
+
+    <script>
+      var slideshow = remark.create({
+        sourceUrl: '15_flow_if.md',
+        ratio: '16:9',
+        countIncrementalSlides: false,
+        slideNumberFormat: '',
+      });
+
+      mermaid.initialize({
+        startOnLoad: false,
+        cloneCssStyles: false,
+        useMaxWidth:true
+      });
+      function initMermaid(s) {
+        var diagrams = document.querySelectorAll('.mermaid');
+        var i;
+        for(i=0;i<diagrams.length;i++){
+          if(diagrams[i].offsetWidth>0){
+            mermaid.init(undefined, diagrams[i]);
+          }
+        }
+      }
+      slideshow.on('afterShowSlide', initMermaid);
+      initMermaid(slideshow.getSlides()[slideshow.getCurrentSlideIndex()]);
+      </script>
+      <script>mermaid.initialize({startOnLoad:true});</script>
+      </script>
+  </body>

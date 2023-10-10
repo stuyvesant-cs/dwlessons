@@ -18,29 +18,21 @@ void draw() {
   background(0);
   drawGridLines(csize);
   circle(xpos, ypos, csize);
-  circle(xpos+csize, ypos, csize);
-  if (frameCount % 3 == 0) {
+  if (frameCount % 30 == 0) {
     xpos+= xspeed;
-  }
+  }//move once per second
 
-  if (xpos + (csize/2 * 3) > width) {
-    xpos = width - (csize/2 * 3);
+  if (xpos + csize/2 > width) {
+    xpos = width - csize/2;
     ypos+= yspeed;
     xspeed*= -1;
-  }
+  }//hit right side, move down & reverse
+
   if (xpos - csize/2 < 0) {
     xpos = csize/2;
     ypos+= yspeed;
     xspeed*= -1;
-  }
-  if (ypos + yspeed < 0) {
-    xspeed*= -1;
-    yspeed*= -1;
-  }
-  if (ypos + yspeed > height) {
-    xspeed*= -1;
-    yspeed*= -1;
-  }
+  }//hit left side, move down & reverse
   //saveFrame("data/" + nf(frameCount, 4) + ".png");
 }//draw
 
