@@ -3,7 +3,6 @@ name: main
 .aim[<div>
 fcs: A Bit of Information
 </div>]
-
 ---
 template: main
 
@@ -31,7 +30,7 @@ template: main
 
 ### Measuring Digital Data
 
-We use bits and bytes most often to measure two kinds fo things:
+We use bits and bytes most often to measure two kinds of things:
 
 --
 - Size
@@ -48,3 +47,79 @@ We use bits and bytes most often to measure two kinds fo things:
 --
   - How fast is the network speed?
   - How fast can data transfer form a hard drive to memory?
+
+---
+template: main
+
+### Number Base Systems
+__Decimal__
+- Base 10
+- Digits: 0 1 2 3 4 5 6 7 8 9
+
+--
+- 249<sub>10</sub> = 2 \* 10<sup>2</sup> + 4 \* 10<sup>1</sup> + 9 \*10<sup>0</sup>
+
+--
+
+__Binary__
+- Base 2
+- Digits: 0 1 (on/off, hi/low)
+
+--
+- 1101<sub>2</sub> = 1 \* 2<sup>3</sup> + 1 \* 2<sup>2</sup> + 0 \* 2<sup>1</sup> + 1 \* 2<sup>0</sup>
+- 1101<sub>2</sub> = 8 + 4 + 0 + 1 = 13<sub>10</sub>
+
+
+
+---
+template: main
+
+### Number Base Systems
+__Hexadecimal__
+- Base 16
+- Digits: 0-9, A-F
+
+--
+- BAD<sub>16</sub> = 11\*16<sup>2</sup> + 10\*16<sup>1</sup> + 13\*16<sup>0</sup> = 2989<sub>10</sub>
+
+--
+- Why do we use hexadecimal (or hex) in CS?
+
+--
+  - Hex is more human readable than binary.
+  - 16 is a power of 2, so it is easier to translate it.
+  - Hex "compresses" binary data
+    - A single hex digit can represent up to 4 binary digits.
+
+---
+template: main
+
+### Encoding
+- _Encoding_ is a way of representing information is a specific format.
+
+--
+- In Computer Science, there are lots of different kinds of encoding.
+
+--
+- At the most basic level, all digital data must be encoded in binary, how that is done depends largely on the kind of data and how it will be used.
+
+???
+$ ls -lh
+$ cat letters.txt
+$ hexdump -C letters.txt
+
+
+---
+template: main
+
+### Task (log in)
+After Logging into to your computer, do the following:
+1. Open a terminal (shortcut: ctrl-alt-t)
+2. Enter the following command at the prompt:
+   - `$ scp -r 149.89.150.100:/file_demo ./`
+3. Hit enter, you will be asked for your password, enter it.
+   - This will copy a folder called `file_demo` onto your home directory.
+4. Enter the following commands at the prompt (hit enter after each):
+   - `$ cd file_demp`
+   - `$ ls -lh`
+5. What information can you discern from this output?
