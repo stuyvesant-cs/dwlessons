@@ -10,13 +10,13 @@
 (define nth
   (lambda (n g)
     (cond
-      ((= n 0) (car g))
-      (else (nth (- n 1) (cdr g))))))
+      ((= n 0) (first g))
+      (else (nth (- n 1) (rest g))))))
 
 (define randElement
   (lambda (g)
     (if (null? g)
-        '()
+        (list)
         (nth (random (length g)) g))))
 
 
@@ -43,13 +43,10 @@
     (if (= 0 (random 2))
         (cons (verb) (subject))
         (list (verb)))))
-           
+
 
 (define sentence
   (lambda ()
     (string-join (append (subject) (verb-phrase)))))
 
 (sentence)
-
-
-
