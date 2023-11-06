@@ -38,7 +38,7 @@ The array is a foundational data structure in Java, with basic support built int
 
 --
 - Despite being objects, there are no accessible methods for arrays, but we can get the size (number of values an array can store) with:
-  - `arr.legnth`
+  - `arr.length`
 
 --
 - <a href="https://cscircles.cemc.uwaterloo.ca/java_visualize/#code=public+class+ArrayDemo+%7B%0A+++public+static+void+main(String%5B%5D+args)+%7B%0A%0A++++++int+x+%3D+123%3B%0A++++++int%5B%5D+arr+%3D+new+int%5B5%5D%3B%0A++%7D//main%0A%0A%7D//ArrayDemo%0A+++&mode=display&curInstr=0" target="blank">java visualizer</a>
