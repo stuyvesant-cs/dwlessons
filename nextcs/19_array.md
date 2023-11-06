@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-nextcs:
+nextcs: A vast Array of Possibilities
 </div>]
 
 ---
