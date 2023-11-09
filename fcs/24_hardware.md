@@ -31,11 +31,12 @@ template: main
 - <a href="https://www.asciitable.com/" target="blank">ASCII</a>
   - 7 bits per character.
 
+--
 - <a href="https://symbl.cc/en/" target="blank">Unicode</a>
   - Characters have unique values called "code points". How those code points are encoded can be different.
 
 --
-  - < a href="https://en.wikipedia.org/wiki/UTF-8" target="blank">UTF-8</a> is one such encoding, where each character is represented by 1-4 bytes.
+  - <a href="https://en.wikipedia.org/wiki/UTF-8" target="blank">UTF-8</a> is one such encoding, where each character is represented by 1-4 bytes.
 
 #### Formatted Text
   - RTF, HTML...
