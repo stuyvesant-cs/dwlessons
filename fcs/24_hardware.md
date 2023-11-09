@@ -61,6 +61,7 @@ There are 2 main ways images are encoded:
 #### Colors
 The main color standard used today represents all colors as combination of red, green and blue values. Each color is given a value form 0-255, taking up a single byte.
 
+
 ---
 template: main
 
