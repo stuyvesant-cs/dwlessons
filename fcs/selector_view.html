@@ -16,8 +16,12 @@
     </script>
 
     <script>
+      const searchParams = new URLSearchParams(window.location.search);
+      // console.log(searchParams);
+      // console.log(searchParams.get('slides'));
+      var slides = searchParams.get('slides');
       var slideshow = remark.create({
-        sourceUrl: '15_flow_if.md',
+        sourceUrl: slides,
         ratio: '16:9',
         countIncrementalSlides: false,
         slideNumberFormat: '',
