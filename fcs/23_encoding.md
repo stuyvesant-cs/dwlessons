@@ -107,19 +107,3 @@ template: main
 $ ls -lh
 $ cat letters.txt
 $ hexdump -C letters.txt
-
-
----
-template: main
-
-### Task (log in)
-After Logging into to your computer, do the following:
-1. Open a terminal (shortcut: ctrl-alt-t)
-2. Enter the following command at the prompt:
-   - `$ scp -r 149.89.150.100:/file_demo ./`
-3. Hit enter, you will be asked for your password, enter it.
-   - This will copy a folder called `file_demo` onto your home directory.
-4. Enter the following commands at the prompt (hit enter after each):
-   - `$ cd file_demp`
-   - `$ ls -lh`
-5. What information can you discern from this output?

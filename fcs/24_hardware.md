@@ -63,24 +63,8 @@ There are 2 main ways images are encoded:
 The main color standard used today represents all colors as combination of red, green and blue values. Each color is given a value form 0-255, taking up a single byte.
 
 
----
-template: main
+???
 
 * Programs:
   - Assembly instructions: 16 - 3000? operations
   - https://godbolt.org
-
-
-
-### Physical Data
-- Digital data (bits), can be saved in many different forms
-- Electricity
-  - The presence or lack of an electric charge (like a battery)
-  - Used in Flash Drives, SSDs (Solid State Drive), ROM (Read Only Memory) Chips …
-- Magnetism
-  - +/- magnetic charges
-  - Used in HDDs (Hard Disk Drive), Credit Cards …
-- Light
-  - The presence or lack or a reflection.
-  - Used in optical disks
-  - DVD, CD-ROM …
