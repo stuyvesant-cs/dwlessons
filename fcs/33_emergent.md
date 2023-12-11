@@ -44,4 +44,5 @@ A system based on the following rules:
 4. A living cell will die if it has fewer than 2 living neighbors, or more than 3 living neighbors.
 
 --
-In Conway's Game of Life, time moves in discrete steps (or turns). Each turn, all cells check the amount of living neighbors
+
+In Conway's Game of Life, time moves in discrete steps (or turns). Each turn, all cells check the amount of living neighbors and update their state accordingly.
