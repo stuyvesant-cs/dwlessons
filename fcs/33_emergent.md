@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-fcs: Monitoring The Situation
+fcs: Complexity is Simple
 </div>]
 
 ---
