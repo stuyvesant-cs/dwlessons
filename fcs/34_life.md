@@ -39,7 +39,7 @@ A system based on the following rules:
 
 1. The world is made of a 2-dimensional grid of "cells".
 2. Each cell can be in one of two states, "alive" or "dead".
-3. A dead cell will become alive if it has exactly 3 neighbors.
+3. A dead cell will become alive if it has exactly 3 living neighbors.
 4. A living cell will die if it has fewer than 2 living neighbors, or more than 3 living neighbors.
 
 --
