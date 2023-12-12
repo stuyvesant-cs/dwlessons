@@ -22,7 +22,7 @@ template: main
 
 - `mouse-xcor`: Returns the current mouse x coordinate.
 - `mouse-ycor`: Returns the current mouse y coordinate.
-- `mouse-down?`: Returns `true` if the right mouse button is currently being pushed.
+- `mouse-down?`: Returns `true` if the left mouse button is currently being pushed.
 
 --
 
