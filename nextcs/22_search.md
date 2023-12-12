@@ -14,3 +14,5 @@ template: main
   - `draw`
       - If all the values in `haystack` have not been checked, call `searchHighlight()`, check if `needle` has been found and update `found` if required. Also, if `liveSearch` is `true` and `needle` has not been found, move to the next index to search.
       - Otherwise, do not call `searchHighlight()`, instead display that the value has not been found.
+
+---
