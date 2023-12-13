@@ -4,12 +4,6 @@ name: main
 fcs: Monitoring The Situation
 </div>]
 
----
-template: main
-
-###  Monitors
-Interface elements to display values.
-
 
 ---
 template: main
