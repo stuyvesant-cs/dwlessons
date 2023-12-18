@@ -45,7 +45,7 @@ When formally discussing the complexity of an algorithm, we often use __Big O__ 
 ---
 template: main
 
-#### [BigO  Complexity Graph](https://www.desmos.com/calculator/qhh3ch612h){:target="_blank"}
+#### [BigO  Complexity Graph](https://www.desmos.com/calculator/qhh3ch612h)
 
 .center[
 <img src="img/25_bigo.png" height="550[x]">
