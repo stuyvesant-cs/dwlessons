@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-fcs: Life Diffusing the Situation
+fcs: Diffusing the Situation
 </div>]
 
 ---
