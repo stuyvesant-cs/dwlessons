@@ -23,5 +23,5 @@ template: main
 An observer procedure that spreads values of path properties to neighbors.
 
 `diffuse property x`
-- Each patch will add an even amount of `x`% of `property` to the `property` value of each of its neighbors.
-  - So each neighbor gets 1/8th of `x`%.
+- Each patch will add an even amount of `x`*100% of `property` to the `property` value of each of its neighbors.
+  - So each neighbor gets 1/8th of `x`*100%.
