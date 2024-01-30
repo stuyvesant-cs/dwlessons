@@ -6,7 +6,7 @@ name: main
 ---
 template: main
 
-### NeXTCS Java with Creativity and Rigor - MK44
+### NeXTCS Java with Creativity and Rigor - MKS44
 ### Teacher: Mr. Dyrland-Weaver (Mr. DW)
 
 <hr>
