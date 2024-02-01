@@ -90,7 +90,6 @@ template: main
   - This immediately deletes the file, does not put it in the trash/recycle bin.
   - `$ rm -r DIR_NAME`
     - Remove a directory
-
 --
 - `$ mkdir DIR_NAME`
   - Create a new empty directory called `DIR_NAME` in the current directory.
