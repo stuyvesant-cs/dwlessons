@@ -20,29 +20,32 @@
       // console.log(searchParams);
       // console.log(searchParams.get('slides'));
       var slides = searchParams.get('slides');
-      var slideshow = remark.create({
-        sourceUrl: slides,
-        ratio: '16:9',
-        countIncrementalSlides: false,
-        slideNumberFormat: '',
-      });
+      if (slides != "pick") {
+        console.log(slides);
+        var slideshow = remark.create({
+          sourceUrl: slides,
+          ratio: '16:9',
+          countIncrementalSlides: false,
+          slideNumberFormat: '',
+        });
 
-      mermaid.initialize({
-        startOnLoad: false,
-        cloneCssStyles: false,
-        useMaxWidth:true
-      });
-      function initMermaid(s) {
-        var diagrams = document.querySelectorAll('.mermaid');
-        var i;
-        for(i=0;i<diagrams.length;i++){
-          if(diagrams[i].offsetWidth>0){
-            mermaid.init(undefined, diagrams[i]);
+        mermaid.initialize({
+          startOnLoad: false,
+          cloneCssStyles: false,
+          useMaxWidth:true
+        });
+        function initMermaid(s) {
+          var diagrams = document.querySelectorAll('.mermaid');
+          var i;
+          for(i=0;i<diagrams.length;i++){
+            if(diagrams[i].offsetWidth>0){
+              mermaid.init(undefined, diagrams[i]);
+            }
           }
         }
+        slideshow.on('afterShowSlide', initMermaid);
+        initMermaid(slideshow.getSlides()[slideshow.getCurrentSlideIndex()]);
       }
-      slideshow.on('afterShowSlide', initMermaid);
-      initMermaid(slideshow.getSlides()[slideshow.getCurrentSlideIndex()]);
       </script>
       <script>mermaid.initialize({startOnLoad:true});</script>
       </script>

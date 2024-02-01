@@ -78,3 +78,8 @@ right hand stuff goes here
 .fifty {
   flex: 50%;
 }
+
+strong {
+  font-variant: small-caps;
+  font-weight: bolder;
+}
