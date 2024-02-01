@@ -88,6 +88,8 @@ template: main
 - `$ rm FILE_NAME`
   - Delete `FILE_NAME`.
   - This immediately deletes the file, does not put it in the trash/recycle bin.
+  - `$ rm -r DIR_NAME`
+    - Remove a directory
 
 --
 - `$ mkdir DIR_NAME`
