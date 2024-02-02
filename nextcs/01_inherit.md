@@ -67,6 +67,7 @@ We can use a superclasses version of an overriden method by using the `super` ke
 - put an `oldToString` in `PathShape`
 - add a different `makeRandomShape` in `polygon`
 - add a `PVector center` and `radius` to `Polygon`
+- Modify makeRandomShape to set center and radius
 
 ---
 template: main
@@ -91,6 +92,11 @@ Every constructor we write has an implicit call to the superclass default constr
 --
 
 If we want to call a non-default constructor instead, you must specify that constructor using `super()` with the correct parameters, and it must be __the first__ line of our new constructor.
+
+???
+1. remove default constructor from `PathShape` --> error in `Polygon`
+2. put it back, try to use parameter constructor for `Polygon`.
+3. add parameter constructor to polygon
 
 ---
 template: main
