@@ -1,7 +1,26 @@
 name: main
 .aim[<div>
-  fcs: Bashcrawl!!
+  fcs: Git Going!
   </div>]
+
+---
+template: main
+
+### Do Now:
+1. Log in
+2. Go to the class website
+3. Follow the instructions for work02
+
+???
+Work 02 instructions
+#### Create your web page work repository
+This semester, we will have a separate GitHub repository for all our web page work (HTML and CSS files). Create that new repository by following the correct link below:
+- Period 9 GH Classroom link: <https://classroom.github.com/a/uM_xihHm>
+- Period 10 GH Classroom link: <https://classroom.github.com/a/YUn44KQM>
+
+#### Add a file
+Through the web interface, create a file called {{ page.sub_name }}. Add a single line of text of your choosing to the file (perhaps the classic [hello, world](https://classroom.github.com/a/YUn44KQM), my preferred [Good news, everyone!](https://www.youtube.com/watch?v=ZxoNhqmEsnY), or anything else )
+
 
 ---
 template: main
@@ -25,7 +44,7 @@ template: main
 
 ### SSH keys
 - SSH key pairs are two keys that can be used to authenticate and login to a computer or website remotely, often via the command line.
-  - We need them in order to upload and download our work from GitHub.
+  - We need them in order to upload and download our work from GitHub via the command line.
 
 --
 - Each key pair consists of a public key and a private key.
@@ -82,6 +101,23 @@ template: main
 ---
 template: main
 
+### Clone your Repository
+
+Follow these instructions. Check in with your TableBuddy™ after each step, or if you need assistance.
+
+1. Find your repository on the GitHub website (hopefully it is still up form the do now).
+   - Should look something like https://github.com/stuycs-gh-classrooms/09-web-jonalf).
+2. Get the clone link. You can find this through the green __Code__ button. Make sure to select __ssh__.
+   - The link should look like this: `git@stuycs-gh-classrooms/09-web-jonalf.git`
+3. Open a terminal, from your home directory, clone your repository into your home directory:
+   - `$ git clone SSH_LINK public_html`
+   - This will create a directory in your home directory called `public_html` which will be a clone of your GitHub repository
+4. Change into the cloned repository:
+   - `$ cd public_html`.
+
+---
+template: main
+
 ### Clone Your Repository & Upload Your Work
 
 Useful Vocabulary:
@@ -126,35 +162,3 @@ General workflow for assignments:
 
 --
 5. __Push__ your changes.
-
----
-template: main
-
-### Do it!
-
-Follow these instructions to upload your work from Wednesday. Check in with your TableBuddy™ after each step, or if you need assistance.
-
-1. Find your repository on the GitHub website.
-   - Should look something like https://github.com/stuycs-gh-classrooms/nextcs-work-jonalf).
-2. Get the clone link. You can find this through the green __Code__ button. Make sure to select __ssh__.
-   - The link should look like this: `git@stuycs-gh-classrooms/nextcs-work-jonalf.git`
-3. Open a terminal, clone your repository into your home directory:
-   - `$ git clone SSH_LINK`
-4. Change into the cloned repository:
-   - `$cd REPOSITORY` (if you don't know the name of your repository, try `ls`).
-
----
-template: main
-
-### Do it (continued)!
-
-5. Find your processing program. If you didn't specify otherwise it should be a folder called _Sketchbook_ in your home directory.
-6. Move your program into your cloned repository (you can use the GUI to move the file).
-7. In the terminal, tell git to _add_ the file:
-   - `$ git add FILENAME`
-8. _Commit_ your changes:
-   - `$ git commit -am "added work01"`
-   - The message in `""` will be associated with this specific commit. It allows you to document what has changed.
-9. _Push_ your commits:
-   - `$ git push`
-10. Go back to your repository on the GitHub website and refresh. You should see your file.
