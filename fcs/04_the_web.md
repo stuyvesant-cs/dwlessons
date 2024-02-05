@@ -10,6 +10,7 @@ template: main
 1. Log in
 2. Open up a terminal
 3. change into your `public_html` directory
+4. Open a web browser and load your _hello.html_ page.
 
 ---
 template: main
