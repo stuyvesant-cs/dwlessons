@@ -6,6 +6,15 @@ name: main
 ---
 template: main
 
+#### Do Now
+1. Log in
+2. Open a terminal and change int your `public_html` directory.
+3. `$ git pull` (just to be safe).
+4. Create a new empty file called `better.html`
+
+---
+template: main
+
 #### HTML: Hyper Text Markup Language
 
 - The purpose of HTML is to define the __structure__ and __meaning__ of a web page.
