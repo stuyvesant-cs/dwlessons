@@ -10,7 +10,7 @@ template: main
 1. Log in
 2. Open a terminal and change int your `public_html` directory.
 3. `$ git pull` (just to be safe).
-4. Create a new empty file called `better.html`
+4. Create a new empty file called `w03.html`
 
 ---
 template: main
@@ -133,7 +133,7 @@ Heading  | `<h1>`   | `h1`-`h6` can be used for sub-headings   | `<h1>Chapter 0<
 Paragraph | `<p>` | Container, mostly for text  | `<p>Once upon a time...</p>`
 
 --
-Anchor | `<a>` | Turns text into an "anchor" for a link. Need to include the `href` attribute to link to another page. | `<a href=http://stuycs.org">stuycs</a>`
+Anchor | `<a>` | Turns text into an "anchor" for a link. Need to include the `href` attribute to link to another page. | `<a href="http://stuycs.org">stuycs</a>`
 
 --
 Image | `<img>` | Must include the `src` attribute to set the image source. The image can either be a local file or a url. `alt` attribute will set text to display if the image cannot be loaded. | `<img src="cat.jpg" alt="an adorable cat">` `<img src="http://cats.com/cat.jpg">`
