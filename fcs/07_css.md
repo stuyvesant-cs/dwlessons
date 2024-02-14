@@ -7,111 +7,67 @@ name: main
 ---
 template: main
 
-#### Cascading Style Sheets (CSS)
-Language designed to add style (color, font, size…) information to HTML elements.
+#### Standard CSS Box Model
+CSS breaks up elements into boxes. Every box has 4 parts:
+- The content (text, image, etc).
+  - This is the size you can set with `width` and `height`
+- Padding: Space between the content and the border.
+- Border: lines surrounding the content and padding.
+- Margin: Space between an element and any adjacent elements.
+- These bottom three all be manipulated with corresponding CSS properties (`padding`, `margin`, `border`).
 
-Because HTML elements are commonly nested, many styles defined in elements are inherited from their __parent__ element. This is called cascading.
-
---
-- Can be added to HTML elements using the “style” attribute.
-- General syntax:
-  - `style="property: value;"`
-  - e.g. `<body style="background-color: black;">`
-
---
-
-More commonly, CSS is written in a separate file, and added to an HTML file with the `link` tag in the `head` element:
-
---
-- `<link href="styles.css" rel="stylesheet">`
-  - `styles.css` must be in the same directory as the html file. The `rel` attribute provides context for the link, in this case, that the file is a css stylesheet.
-
+???
+show inspector
+manipulate various properties of h1 and p
 
 ---
 template: main
 
-#### CSS Syntax:
-```
-selector {
-  property0: value0;
-  property1: value1;
-}
-```
-
---
-
-`selector` determines which elements we are defining style for.
-- It can be an html tag (like `p` or `h1`).
-- It can also be a _class_ or _id_, which are attributes that can be added to any HTML element.
-
---
-- You can apply the same rules to multiple selectors by separating them with commas. It is also common to separate with newlines as well.
-
---
-```
-p,
-h1 {
-  color: green;
-}
-```
+#### Content Sizing
+- If you do not specify the size of an HTML element, a web browser will attempt to make it large enough to contain whatever content it has.
+- Once you specify a size, a browser will use your values, regardless of how the content may or may not fit.
+- This means that the content may _not_ fit in the element anymore. By default, a browser will let the content bleed out into surrounding elements. this can be modified using th `overflow` property:
+  - `overflow: visible`: default behavior, show the overflowing content.
+  - `overflow: hidden`: do not show the overflowing content (not advised)
+  - `overflow: auto`: add scroll bars to show overflow content.
 
 ---
 template: main
 
-#### Colors in CSS
-
-Colors can be set for many different parts of HTML elements. Text, background, borders (and more) are places you can set colors.
-
---
-
-You can define colors in different ways with css:
-- RGB values: `rgb(176 196 222)`.
+#### CSS Layouts
+The way the CSS arranges HTML elements is based on the `display` property of those elements. Most elements will either be `block` or `inline`.
 
 --
-- Hexcode values: `#b0c4de`
+- `block`
+  - Block elements will be displayed on their own "line".
+  - If `width` is not set, it will extend as far as its parent.
+  - `width` and `height` are interpreted correctly.
+  - `padding` `margin` and `border` will cause other elements to be pushed away.
 
 --
-- named colors:  `lightsteelblue`
-  - There are ~166 named colors ([full list](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color))
+- `inline`
+  - Inline elements will continue on the current line.
+  - `width` and `height` are ignored.
+  - top and bottom margins, padding and borders __do not__ push elements away.
+  - left and right margins, padding and borders will push elements away.
 
---
-
-You can add transparency to any color using the `rgb` syntax like this:
-- `rgb(176 196 222 / 75%)`
-- `0%` is fully transparent and `100%` is fully opaque.
+???
+mess around with inline and block.
 
 ---
 template: main
 
-####  Units of Length in CSS
-
-Many CSS properties use length based measurements, you can set lengths in various ways. These are frequently used:
-
---
-- Pixels (the main non-relative value): `25px`
+#### More Layout Options
+`float` is a CSS property that places an element in the left or right side of its parent element, but allows text and inline elements to wrap around it.
 
 --
-- Percentage (most often a percentage of the corresponding property of the parent element): `55%`.
+
+Sometimes, you want to group elements together for layout or style purposes. HTML has two "container" classes for this purpose, `div` and `span`.
+
+- `<div> ... </div>` creates a `block` element container.
+- `<span> ... </span>` creates an `inline` element container.
 
 --
-- `em`, a value relative to the font size of the parent element (for text related properties) or the element itself (for non-text related properties): `1.5em`
-
-
----
-template: main
-
-#### Commonly Used Properties:
-
-Property | Description | Values | Example
---- | --- | --- | ---
-`color` | text color | any css color | `color: pink`
-`background-color`  | background-color   | any css color | `background-color: lightsteelblue`  
-`text-align`  | alignment of text in element | `start` `end` `center` `justify`   |  `text-align: center`
-`width`, `height`  | dimensions of the element   | unit of length (`px` for pixels, `%` for % of parent)  |  `width: 75%px`, `height: 200px`
-`border`  | set the border size, style, and color (can be all three or any subset of those three)   | size: any length, color: any color, style: `solid` `dotted` `dashed` (also others)   |  `border: solid`, `border: 1px solid green`
-`font-size`  | size of text  | any length   |  `font-size: 16px`
-`font-weight`  | boldness of text  | `normal`, `bold` (others)  | `font-weight: bold`  
-`font-family`  | set possible fonts to use | can be a specific font or a generic font family  | `font-family: "Times"`, `font-family: "serif"`  
 
 
 
