@@ -71,6 +71,9 @@ Sometimes, you want to group elements together for layout or style purposes. HTM
 
 You can add an `id` (unique) or `class` (reusable) attribute to any HTML element and then use it as a CSS selector. This is commonly done along with `div` and `span` elements.
 
+`#id_name` will select an element based on `id`
+
+`.class_name` will select elements based on `class`
 
 
 ---
