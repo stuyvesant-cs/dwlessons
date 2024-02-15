@@ -61,6 +61,8 @@ To override a method, we provide a new version of the method in the subclass tha
 
 We can use a superclasses version of an overriden method by using the `super` keyword. e.g. `super.toString()`.
 
+Since a Java class only has one superclass, `super.super` is never valid.
+
 ???
 - print out a `PathShape` object w/o  a custom `toString`
 - put a `toString` in `PathShape`
