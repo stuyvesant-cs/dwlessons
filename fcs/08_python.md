@@ -97,5 +97,5 @@ Example:
 ```
 def c_to_f(celsiusTemp):
   farenheitTemp = celsiusTemp * 9/5 + 32
-  return celsiusTemp
+  return farenheitTemp
 ```
