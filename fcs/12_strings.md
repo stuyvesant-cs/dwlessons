@@ -1,13 +1,13 @@
 name: main
 
 .aim[<div>
-  fcs: Stay a While and Listen
+  fcs: If you like it then your should've put a String on it.
   </div>]
 
 ---
 template: main
 
-Reminder: Test Friday
+#### Reminder: Test Friday
 
 #### Do Now (TableBuddies™):
 - Below you will find a list of commands to test out in the Thonny Shell.
