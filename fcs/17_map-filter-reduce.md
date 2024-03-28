@@ -79,7 +79,7 @@ template: main
       arg1 = g[1]
       arg0 = func(arg0, arg1)
       for e in g[2:]:
-          arg0 = fun(arg0, arg1)
+          arg0 = func(arg0, e)
       return arg0
   ```
 
@@ -94,6 +94,7 @@ Remember lambda? It's back, in python form!
 - In python: the anonymous function statement
 
 --
+
 `lambda ARGS : CODE`
 - examples:
   - `lambda a: a^3`
