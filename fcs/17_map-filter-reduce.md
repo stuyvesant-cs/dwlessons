@@ -50,7 +50,7 @@ template: main
 ---
 template: main
 
-### `map`
+### `filter`
 
 `filter( func, g )`
 - `func` must be a function that that has exactly 1 parameter and returns a __boolean__ value.
