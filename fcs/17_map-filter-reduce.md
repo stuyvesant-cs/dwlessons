@@ -67,6 +67,24 @@ template: main
 - `filter` technically returns an _irerator_, which we can turn into a list with the `list` function:
   - `list( filter(foo, [8, -17, 34, -3]))`
 
+  ---
+  template: main
+
+  #### `lambda`
+  Remember lambda? It's back, in python form!
+  - In racket: function making function
+  - In python: the anonymous function statement
+
+  --
+
+  `lambda ARGS : CODE`
+  - examples:
+    - `lambda a: a^3`
+    - `lambda a, b: a if a > b else b`
+
+  --
+  - like in Racket, `lambda` can be very useful with `map`, `filter` and `reduce`.
+
 
 ---
 ### `reduce`
@@ -84,21 +102,3 @@ template: main
   ```
 
   - Reduce needs to be imported from functools by putting: `from functools import reduce` at the top of your python file.
-
----
-template: main
-
-#### `lambda`
-Remember lambda? It's back, in python form!
-- In racket: function making function
-- In python: the anonymous function statement
-
---
-
-`lambda ARGS : CODE`
-- examples:
-  - `lambda a: a^3`
-  - `lambda a, b: a if a > b else b`
-
---
-- like in Racket, `lambda` can be very useful with `map`, `filter` and `reduce`.
