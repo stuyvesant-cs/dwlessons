@@ -79,8 +79,8 @@ template: main
 
   `lambda ARGS : CODE`
   - examples:
-    - `lambda a: a^3`
-    - `lambda a, b: a if a > b else b`
+    - `lambda a: a**3`
+    - `lambda a, b: a or b`
 
   --
   - like in Racket, `lambda` can be very useful with `map`, `filter` and `reduce`.
