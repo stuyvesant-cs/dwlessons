@@ -9,7 +9,7 @@ template: main
 #### Trees
 A tree is a __hierarchical__ data structure. Nodes are connected _below_ other nodes.
 
-__Useful Vocabulary__
+#### Useful Vocabulary
 - root: The top-most node of a tree.
 - child node: A node below another node.
 - leaf: Any node without child nodes.
