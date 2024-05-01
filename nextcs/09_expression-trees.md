@@ -6,39 +6,13 @@ name: main
 ---
 template: main
 
-#### Trees
-A tree is a __hierarchical__ data structure. Nodes are connected _below_ other nodes.
-
-#### Useful Vocabulary
-- root: The top-most node of a tree.
-- child node: A node below another node.
-- leaf: Any node without child nodes.
-- level: How far a node is from the root vertically.
-  - The root is level 0
-- height: The total number of levels in a tree.
-- full: A tree is full if all nodes are either leaves or have the maximum number of child nodes.
-- complete: A tree where:
-  - All levels except the last have the maximum number of nodes.
-  - The last level is filled form the left to the right.
+#### Expression Trees
+- A binary tree that can be use to represent an arithmetic expression.
+- Nodes are either values or operators.
+- Operator nodes always have exactly 2 children.
+- Value nodes are always leaves.o
 
 ???
-
-### Day 2: Exercise: Traversals
-- Review how to evenly space nodes given level.
-- Modify `makeTree` to not always make child nodes.
-  - More likely to make children at levels closer to the root.
-- Pre, post, in.
-  - Write a preorder method (then post, in)
-
-### Day 3: Height & Randomness
-- Recreate tree based on traversals
-- Wrapper methods
-- Calculate height of a tree.
-
-### Day 4: Lab Balanced
-- Color nodes if left & right subtrees are the same height.
-- Remove nodes
-
 ### Day 4: Expression trees
 - Math! In tree form!
 - In-order travesal will give you an arithmetic expression.
@@ -46,7 +20,7 @@ A tree is a __hierarchical__ data structure. Nodes are connected _below_ other n
   - Modify make tree to combine the random chance for both children into 1.
   - This will create a valid expression tree structure.
   - Add a value and type (operation) to nodes.
-  - `populateTree` shoudl use the randomly created structure to make a valid expression tree.
+  - `populateTree` should use the randomly created structure to make a valid expression tree.
   - Modify inOrder to create a valid expression with ()s
 
 ### Day 5 & 6: Expression Tree Lab
