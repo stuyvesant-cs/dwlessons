@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-  fcs: Joining Forces
+  fcs: Split Decisions
   </div>]
 
 ---
@@ -15,8 +15,6 @@ template: main
 ```
 s = 'I love computer science!'
 g = s.split()
-g
-'-'.join(g)
 ```
 
 ???
