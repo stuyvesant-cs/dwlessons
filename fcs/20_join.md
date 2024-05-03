@@ -1,10 +1,10 @@
 name: main
 
 .aim[<div>
-  fcs: Split Decisions
+  fcs: Joining Forces
   </div>]
 
-  
+
 ---
 template: main
 
