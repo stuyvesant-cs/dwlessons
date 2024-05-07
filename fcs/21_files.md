@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-  fcs: Joining Forces
+  fcs: Filingn 
   </div>]
 
 
@@ -69,4 +69,4 @@ template: main
 
 `f.readlines()`
 - Reads the contents of the file `f` but returns a list.
-- Each element of the list a string of the corresponding to each line in the file. 
+- Each element of the list a string of the corresponding to each line in the file.
