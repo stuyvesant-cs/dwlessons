@@ -1,22 +1,13 @@
 name: main
 
 .aim[<div>
-  fcs: Split Decisions
+  fcs: Look it Up!
   </div>]
 
 ---
 template: main
 
-
-???
-hanoi recap - livecode
-http://homer.stuy.edu/~dw/hanoi.html
-
-
-- Below you will find a list of commands to test out in the Thonny Shell.
-- Run each command, **one at a time** (that is, hit enter/return after each and pause), and discuss amongst yourselves.
-- When you are done, come up with at least one question your group has based on these tests.
-
+#### Do Now (TableBuddies™):
 
 s = 'I love computer science!'
 g = s.split()
