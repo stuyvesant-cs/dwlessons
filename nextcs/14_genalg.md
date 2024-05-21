@@ -1,6 +1,6 @@
 name: main
 .aim[<div>
-  nextcs: A Kernel of Truth
+  nextcs: Evolving Code
   </div>]
 
 ---
