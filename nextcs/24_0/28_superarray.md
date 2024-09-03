@@ -13,4 +13,4 @@ template: main
 
 ### Limitations of arrays
 - Non-resizeable
-- 
+-
