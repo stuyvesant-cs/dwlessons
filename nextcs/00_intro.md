@@ -1,20 +1,8 @@
 name: main
 
-### .aim[NeXTCS: Welcome!]
-<style>
-.aim {
-font-size: .75em;
-border-bottom: 1px solid lightgray;
-margin: 1px;
-}
-.remark-inline-code {
-  background-color: lightgray;
-  border-radius: 3px;
-  padding-left: 2px;
-  padding-right: 2px;
-}
-/*h4 {font-size: 1.5em}*/
-</style>
+.aim[<div>
+  nextcs: Welcome!
+  </div>]
 
 ---
 template: main
@@ -22,13 +10,19 @@ template: main
 ## NextCS: Java With Creativity and Rigor
 ### MKS43
 ### Teacher: Mr. Dyrland-Weaver (Mr. DW)
+
+--
+.cols[
+.fifty[
 #### Useful information:
 - Class website: www.stuycs.org/nextcs-dw
-- Email address: dw@stuy.edu
+- Email address: jdyrlandweaver@schools.nyc.gov
 - Office: 301
   - Free periods: 6, 7, 8
   - Making an appointment ahead of time is encouraged.
+]
 
+.fifty[
 #### Required Materials
 - Brain.
 - Notebook.
@@ -36,24 +30,39 @@ template: main
 - Pen/Pencils.
 - Access to a computer outside of class.
   - In class we will all use the provided computers.
-
+]
+]
 ---
 template: main
 
 #### Class Procedures
 
-.center[![Analog & Digital](img/00_anglog_dig.png)]
+.center[
+<img src="img/00_anglog_dig.png" width="400" height="150">
 
-| | |
-|---|---|
-| <img src="img/full_00_analog_fbk_dev.gif" width="400" height="360"> | <img src="img/00_dig_fbk_dev.png" width="400" height="360"> |
-| Analog Feedback Device | Digital Feedback Device |
+.cols[
+.fifty[
+<img src="img/full_00_analog_fbk_dev.gif" width="400" height="280">
+
+Analog Feedback Device
+]
+
+.fifty[
+<img src="img/00_dig_fbk_dev.png" width="400" height="280">
+
+Digital Feedback Device
+]
+]
+]
+
 
 ---
 template: main
 
 ### Delaney Cards!
-.center[![dcards](img/00_delaney_example.jpg)]
+.center[
+<img src="img/00_delaney_example.png" height="480">
+]
 
 ---
 template: main
