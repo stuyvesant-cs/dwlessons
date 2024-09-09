@@ -10,7 +10,7 @@ template: main
 ### Do Now:
 - Attempt to log into your computer.
 - Before Noting any problems, check with your TableBuddy™ or TableBuddies+™ to see if they can help.
-- After a successful log in, open up Firefox, navigate to the course website and bookmakr it.
+- After a successful log in, open up Firefox, navigate to the course website and bookmark it.
   - Once again, seek the council of your neighbors if you need assitance.
 
 ---
