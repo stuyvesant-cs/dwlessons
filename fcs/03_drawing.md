@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-  fcs: Getting to Know Your StuyCS Account
+  fcs: Drawing Conclusions
   </div>]
 
 ---
