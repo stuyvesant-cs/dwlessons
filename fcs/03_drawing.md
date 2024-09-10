@@ -14,6 +14,7 @@ template: main
 1. Half of you have a paper folded over your computer, if you do, you are the describer.
 2. If you do not have a paper on your computer, you are the draw-er.
 3. __DESCRIBERS DO NOT__ show the paper to your TableBuddy™.
+4. __DRAW-ERS DO NOT__ shot your paper to your TableBuddy™.
 
 --
 4. Describers must instruct your draw-er to recreate the image in their notebooks without showing them the paper.
@@ -70,6 +71,7 @@ In a moment, you will take turns instructing each other on how to draw an image.
   - Describers: read your instructions to the draw-ers
   - Draw-ers: follow the provided instructions, drawing on the back of your handout.
 
+---
 
 ### Programming Languages
 
