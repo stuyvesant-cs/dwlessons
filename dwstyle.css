@@ -83,3 +83,7 @@ strong {
   font-variant: small-caps;
   font-weight: bolder;
 }
+
+.smaller {
+  font-size: 0.60em;
+}
