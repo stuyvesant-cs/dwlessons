@@ -91,6 +91,7 @@ template: main
   - Maintain backups.
   - Sync copies of the same work on multiple computers.
   - Help multiple people work on the same project.
+
 --
 - _Repository_: A directory containing work to be tracked by `git`.
 
@@ -114,7 +115,13 @@ template: main
 
 ### Generating SSH Keys
 
-The following commands will make a __4096 bit rsa__ key pair. (4096 bit rsa is the algorithm used to make the keys)
+First, check if you have an ssh key already:
+- `$ cat ~/.ssh/id_rsa.pub`
+  - If you get a message that there is no such file, then you need to make a key.
+
+--
+
+The following commands will make a __4096 bit rsa__ key pair. (4096 bit rsa is the algorithm used to make the keys). __DO NOT DO THIS__ if you already have a key.
 
 --
 - `$ ssh-keygen -b 4096`
@@ -126,10 +133,11 @@ The following commands will make a __4096 bit rsa__ key pair. (4096 bit rsa is t
 ---
 template: main
 
-## Add your public ssh key to GitHub
+### Add your public ssh key to GitHub
 
 - Use `cat` to display the contents of your public key in the terminal:
   - `$ cat ~/.ssh/id_rsa.pub`
+
 --
 - Log into your GitHub account in a web browser.
 - In the upper-right corner of any page, click your profile "photo", then click __Settings__.
@@ -142,11 +150,14 @@ template: main
   - Paste your entire public key into the "Key" field. And add a label to the "title" field (e.g. "Stuy CS lab"
   - Click "Add SSH key" and possibly, confirm your git password.
 
---
-- TO TEST YOUR KEYS - Use the following command:
-  - `$ ssh -T git@github.com` after this command you will be prompted to type the ssh-key password that you chose when creating the key.
-  - Read the response message from the above step! If it worked, you should see a message like this:
-      - `Hi jonalf! You've successfully authenticated, but GitHub does not provide shell access.`
+---
+template: main
+
+### Test Your Key
+Use the following command:
+- `$ ssh -T git@github.com` after this command you will be prompted to type the ssh-key password that you chose when creating the key.
+- Read the response message from the above step! If it worked, you should see a message like this:
+    - `Hi jonalf! You've successfully authenticated, but GitHub does not provide shell access.`
 
 
 ---
