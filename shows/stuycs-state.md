@@ -66,7 +66,40 @@ template: main
 ---
 template: main
 
-### Student Trends
+### Current Extra-Curricular Programs
+- CS Dojo
+- Competitive Computing Club
+- Girls Who Code
+- Google Mentorship Program
+- handful of other clubs (stuy linux, stuy quantum, ai...)
+
+---
+template: main
+
+### Student Trends (CS specific)
 - Almost all students have seen some kind of programming in school before Stuy.
+
+--
 - Students familiarity with computers is increasingly browser and app centric.
--
+
+--
+- Broader interest in CS overall, but not as much interest for depth.
+
+---
+template: main
+
+### Current Initiatives
+
+Curricular
+- Creation of online textbooks for our in-house designed courses
+  - [Foundations I](http://www.stuycs.org/fcs00-book/)
+  - [Graphics](https://www.stuycs.org/graphics-book/)
+- New course: data analysis for students in research classes.
+- Revisit AI course created by Peter Brooks.
+- Using skills/mastery based grading.
+
+--
+
+Infrastructure
+- In-depth audit of the current CS network including servers, wiring, labs.
+- Creation of a cybersecurity lab.
