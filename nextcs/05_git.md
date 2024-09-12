@@ -18,7 +18,7 @@ template: main
 - Run the git configure commands in a terminal (use your name and email address):
   ```
   $ git config --global user.name "Q Tip"
-  $ git config --global user.email qtip@example.com
+  $ git config --global user.email qtip@tribe.quest
   $ git config --global core.editor nano
   ```
 
@@ -39,32 +39,6 @@ template: main
 
 --
 - _GitHub_: A website that provides a central place to store git repositories.
-
----
-template: main
-
-### SSH keys
-- SSH key pairs are two keys that can be used to authenticate and login to a computer or website remotely, often via the command line.
-  - We need them in order to upload and download our work from GitHub.
-
---
-- Each key pair consists of a public key and a private key.
-- __Never share or upload your private key__.
-- Your public key is safe to distribute.
-
----
-template: main
-
-### Generating SSH Keys
-
-The following commands will make a __4096 bit rsa__ key pair. (__4096 bit rsa__ is the algorithm used to make the keys)
-
---
-- `$ ssh-keygen -b 4096`
-  - You will then be prompted to select a location for the keys that will be generated (keep the default).
-  - The keys will be stored in the `~/.ssh` directory.
-  - The private key will be called `id_rsa` and the associated public key will be called `id_rsa.pub`.
-  - You will then be prompted to provide a password protect this key, please use a secure password for this.
 
 ---
 template: main
@@ -168,8 +142,8 @@ template: main
 
 ### Do it (continued)!
 
-5. Find your processing program. If you didn't specify otherwise it should be a folder called _Sketchbook_ in your home directory.
-6. Move your program into your cloned repository (you can use the GUI to move the file).
+5. Find your processing program from Tuesday. If you didn't specify otherwise it should be a folder called _Sketchbook_ in your home directory.
+6. Move your program into your cloned repository (you can use the GUI or CLI to move the file).
 7. In the terminal, tell git to _add_ the file:
    - `$ git add FILENAME`
 8. _Commit_ your changes:
