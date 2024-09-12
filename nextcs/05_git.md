@@ -9,7 +9,7 @@ template: main
 
 ### Do now (log into computers):
 
-- Run these git configure commands in a terminal (use your name and email address):
+- Run these git configure commands in a terminal (use your name and email address associated with your github account):
   ```
   $ git config --global user.name "Q Tip"
   $ git config --global user.email qtip@tribe.quest
