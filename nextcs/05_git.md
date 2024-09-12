@@ -9,13 +9,7 @@ template: main
 
 ### Do now (log into computers):
 
-- 18/34 of you did the homework, not great.
-- Luckily for the 16 of you that didn't do the work, I made a mistake. Everyone will have to recreate their work repositories.
-
-- Go to the class website, find the assignment for last night, follow the instructions for __GitHub Classroom Setup Instructions__.
-  - The link to the assignment has changed.
-
-- Run the git configure commands in a terminal (use your name and email address):
+- Run these git configure commands in a terminal (use your name and email address):
   ```
   $ git config --global user.name "Q Tip"
   $ git config --global user.email qtip@tribe.quest
