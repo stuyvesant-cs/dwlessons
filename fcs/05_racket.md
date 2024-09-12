@@ -7,11 +7,18 @@ name: main
 ---
 template: main
 
+.center[<img src="img/lisp_cycles.png">]
+
+--
+
 ### The Racket Programming Language
 - Racket was created in 1995 (then called Scheme).
 - Based on Lisp
 - Racket & DrRacket were developed with education in mind, to have a low barrier of entry but also to have the ability to create complex programs.
 - Racket can be programmed in many different styles (technically we call these _paradigms_). We will use it as a __functional programming language__.
+
+
+
 
 ---
 template: main
