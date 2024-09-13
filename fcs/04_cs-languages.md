@@ -59,8 +59,8 @@ template: main
 ### Programming Languages
 
 --
-.cols[
-.fifty[
+
+.left-column[
 ```
 (display "Hello World")
 ```
@@ -91,7 +91,10 @@ shout Hello World
 +++,------,#+++,#!
 ```
 ]
-.fifty[
+
+--
+
+.right-column[
 .smaller[
 ```
 Do Not Adieu, a play in two acts.
@@ -186,7 +189,6 @@ Ophelia:
 
 [Exeunt]
 ```
-]
 ]
 ]
 
