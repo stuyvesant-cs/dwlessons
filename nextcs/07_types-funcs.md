@@ -47,7 +47,11 @@ Processing has an unique primitive data type called `color`. A `color` variable 
 --
 - Regardless of the value, all `int`s take 4 Bytes. Here are a couple examples of values and how they would be represented at the bit level:
   - `3`: `00000000` `00000000` `00000000` `00000011`
+
+--
   - `256`: `00000000` `00000000` `00000001` `00000000`
+
+--
   - `246019902`: `00001110` `10101001` `11110111` `00111110`
 
 ---
