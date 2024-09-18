@@ -34,6 +34,7 @@ template: main
 2. Select one representative to make a post to Piazza with your flag.
 3. The post should be a __note__ with the following features:
    - Summary: `flag of greatness for TNPG of pd4`
+   - Folder: `fam`
    - Body:
         ```
         TNPG
