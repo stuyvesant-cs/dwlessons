@@ -11,7 +11,7 @@ template: main
 ### Do Now: (log into computers)
 
 1. Open your work from yesterday (work06).
-2. Discuss your solutions to the problems with your TableBuddy™, be prepared to share your solutions to the class.
+2. Discuss your solutions to the problems with your TableBuddy, be prepared to share your solutions to the class.
 3. Compare both of your solutions with the example solution posted on the source code page (there is a link to this on the main class webpage now)
    - <https://github.com/mks21-dw/thesource/tree/main/racket>
    - What differences are there between this program and your work?
@@ -37,12 +37,17 @@ Come up with some hypotheses about what these functions do.
 template: main
 
 ### Boolean Values
-* There are only 2 possible boolean values, `true` and `false`.
+* There are only 2 possible boolean values, `#true` and `#false`.
 * In racket, you can also use `#t` and `#f`
 
+--
 ### Comparison functions
 * All comparison functions take numeric inputs and return a boolean value.
-* `= > < >= <=`
+* `=`
+* `>`
+* `<`
+* `>=`
+* `<=`
 
 ---
 template: main
