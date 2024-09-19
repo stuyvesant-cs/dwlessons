@@ -170,6 +170,7 @@ template: main
   $ git config --global user.name "Q Tip"
   $ git config --global user.email qtip@example.com
   $ git config --global core.editor nano
+  $ git config --global pull.rebase false
   ```
 
 ---

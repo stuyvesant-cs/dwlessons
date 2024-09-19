@@ -14,6 +14,7 @@ template: main
   $ git config --global user.name "Q Tip"
   $ git config --global user.email qtip@tribe.quest
   $ git config --global core.editor nano
+  $ git config --global pull.rebase false
   ```
 
 
