@@ -60,7 +60,7 @@ template: main
 * `(and a b)`
  * can take 2 or more inputs
  * returns `#t` when all the inputs are true and `#f` for any other case
- * `(and true false)` ==> `#f`
+ * `(and #true #false)` ==> `#f`
  * `(and (> 4 2) (> 3 0))` ==> `#t`
 
 ---
