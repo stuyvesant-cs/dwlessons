@@ -28,7 +28,7 @@ template: main
 - Syntax:
   ```
   while ( BOOLEAN ) {
-    CODE
+      CODE
   }
   ```
 - `CODE` will repeat as long as `BOOLEAN` is true.
