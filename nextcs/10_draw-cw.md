@@ -70,4 +70,11 @@ a.k.a. Points don't exist, really
 - In additon, there will be a final exam and/or project that will cover all the skills.
 
 --
-- Your grade for each skill
+- Your grade for each skill will be a combination of your skill grades over throu course of the semester and your final exam/project grade.
+
+--
+- Your grade will map to a 100 point scale as follows:
+  - 4: 100
+  - 3: 90
+  - 2: 75
+  - 1: 55
