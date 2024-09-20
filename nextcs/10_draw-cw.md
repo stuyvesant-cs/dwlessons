@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-nextcs: While We're Waiting
+nextcs: Mad Skillz!
 </div>]
 
 ---
@@ -70,4 +70,4 @@ a.k.a. Points don't exist, really
 - In additon, there will be a final exam and/or project that will cover all the skills.
 
 --
-- Your grade for each skill 
+- Your grade for each skill
