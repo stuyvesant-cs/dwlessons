@@ -71,8 +71,8 @@ template: main
 * `(or a b)`
  * can take 2 or more inputs
  * returns `#t` when at least one of the inputs are true and `#f` for any other case
- * `(or true false)` ==> `#t`
- * `(or false (= 3 5))` ==> `#f`
+ * `(or #true #false)` ==> `#t`
+ * `(or #false (= 3 5))` ==> `#f`
 
 ---
 template: main
@@ -80,6 +80,6 @@ template: main
 ### Boolean Functions (continued)
 * `(not a)`
  * returns the boolean opposite of `a`
- * `(not true)` ==> `#f`
- *	`(not false)` ==> `#t`
+ * `(not #true)` ==> `#f`
+ *	`(not #false)` ==> `#t`
  *	`(not (= 3 4))` ==> `#t`
