@@ -15,7 +15,7 @@ template: main
 3. If you did get the assignment working, try the following additions.
    1. When the logo reaches the top, it should switch directions and go down.
    2. Add similar behavior moving left and right as well.
-  
+
 ---
 template: main
 
@@ -32,3 +32,20 @@ Scope determines where in code you can access a variable.
 --
 * Variables that share the same scope cannot have the same name.
 * Variables in different scopes can have the same name.
+
+---
+template: main
+
+### Scope Conventions in Processing
+
+- If a variable has to be modified (but not reset) in `draw`, then it must be declared outside of `draw`, which means it must be declared outside of all functions.
+
+--
+- These kinds of variables are called __global variables__ because their scope is the entire program.
+- All functions, (not just `draw`), have access to global variables.
+
+--
+- In processing programs, we often deal with global variables as follows:
+  - Declare (but not initialize) at the top of the program.
+  - Initialize in `setup`
+  - Modify in `draw`, or any other functions as need be.
