@@ -101,7 +101,7 @@ flowchart TD;
 <div class="mermaid">
 flowchart TD;
   id([getTensDigit]) -- 948 --> id0[quotient\n948 10];
-  id0 -- 94 --> id1[remainder\94 10];
+  id0 -- 94 --> id1[remainder\n94 10];
   id1 -- 4 --> id2([END])
 </div>
 ]
