@@ -53,7 +53,7 @@ for (int i=0; i < 100; i++) {
 
 --
 
-.right-column [
+.right-column[
 ```
 int i=0;
 
