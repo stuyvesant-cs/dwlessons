@@ -18,7 +18,7 @@ flowchart LR;
   id3 --> id4([result2]);
 </div>
 
-The function `round(x)` will return `x` rounded to the nearest integer.
+The function `(round x)` will return `x` rounded to the nearest integer.
 
 ???
 livecode: Turn chart into code.
