@@ -107,3 +107,7 @@ strong {
 .smaller {
   font-size: 0.60em;
 }
+
+div.mermaid {
+    font-family: 'trebuchet ms', verdana, arial;
+}
