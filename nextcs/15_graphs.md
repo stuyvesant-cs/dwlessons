@@ -13,7 +13,7 @@ template: main
 
 $$y = mx + b$$
 
-- Write a function `parabolaY(int x, float a, float b, float c)` that returns the y value for the parabola determined by the provided x value and the equation:
+- Write a function `parabolaY(float x, float a, float b, float c)` that returns the y value for the parabola determined by the provided x value and the equation:
 
 $$y = ax^2 + bx + c$$
 
