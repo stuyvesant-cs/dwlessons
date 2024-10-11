@@ -71,33 +71,3 @@ livecode foldl
 (foldl (lambda (a b) (and b (> a 0))) #t g)
 (foldl (lambda (a b) (and b (> a 4))) #t g)
 ```
-
----
-template: main
-
-### `foldl`
-
-`(foldl f startValue g)`
-- `f` must be a function that takes two arguments.
-- Calls `f` using each element of `g` as the first argument and the previous return value as the second argument
-- `startValue` is used as the initial value for the second input to `f`
-
-`(foldl + 0 (list 1 2 3 4 5))`
-
-| value |  `f` |  result
-| ---   | ---  | ---
-
---
-| `1` | `(+ 1 0)` | `1`
-
---
-| `2` | `(+ 2 1)` | `3`
-
---
-| `3` | `(+ 3 3)` | `6`
-
---
-| `4` | `(+ 4 6)` | `10`
-
---
-| `5` | `(+ 5 10)` | `15`
