@@ -23,6 +23,8 @@ A programming language model centered on the creation & use of __Objects__.
 
 
 __Objects__ should allow for the following:
+
+--
 - _Encapsulation_: Combining all of the relevant values & methods into a single data type
   - i.e. moving all the relevant variables into the `Ball` class.
 
@@ -32,6 +34,8 @@ __Objects__ should allow for the following:
 
 --
   - This allows the user of a object to focus on other issues.
+
+--
   - This allows the designer of the object to change things on the inside without the user having to worry about it.
 
 ---
@@ -42,13 +46,17 @@ A __Class__ is a blueprint for an object. Classes are not objects, in the same w
 
 - An object is a specific _instance_ of a _class_.
 
+--
+
 A class contains:
 - Fields (or instance variables) - What the object "knows"
  - The individual values to be packaged together.
+ - Field values _can_ (and often are) unique for each object.
 
 --
 - Methods - What the object can "do"
  - Actions the objects can perform.
+ - Methods are the same for all objects. 
 
 --
 - Constructors
