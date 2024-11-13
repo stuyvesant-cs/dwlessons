@@ -63,6 +63,7 @@ template: main
 
 ---
 template: main
+
 ### Internet Addresses
 Every device connected to the internet has an I.P. (Internet Protocol) address.
 - They might look like this: `149.89.150.100`  (IPv4)
@@ -73,6 +74,8 @@ Every device connected to the internet has an I.P. (Internet Protocol) address.
 - For the most part, organizations own blocks of IP addresses, and give them to their users as needed.
 
 ---
+template: main
+
 ### Domain Names
 Domain names are “words” meant to easily identify organizations on the internet without having to know IP addresses.
 
