@@ -91,16 +91,29 @@ template: main
 
 --
 - Examples of protocols:
-  - http: Hyper Text Trasmission Protocol: used to transmit _unencrypted_ web pages.
-  - https: HTTP over SSL: used to transmit _encrypted_ web pages.
-  - nfs: Network File System: used to transmit files to/from a file server.
-  - ICMP: Ping: used to check if there is a netowrk path to a computer.
+  - HTTP - Hyper Text Trasmission Protocol: used to transmit _unencrypted_ web pages.
+  - HTTP - Secrure HTTP: used to transmit _encrypted_ web pages.
+  - NFS - Network File System: used to transmit files to/from a file server.
+  - ICMP - Ping: used to check if there is a netowrk path to a computer.
 
+---
+template: main
 
-???
-# Web pages:
-- What is a web page?
-  - A file on (most likely) another computer formatted to be viewed through a web browser.
-  - When you visit a website, the file gets copied from storage into memory, it’s just that the storage is from a different computer.
-- What is a web site?
-  - A collection of 1 or more interconnected web pages.
+### Websites
+A web page is a file on (most likely) another computer formatted to be viewed through a web browser. A website is a collection of 1 or more connected web pages.
+
+--
+
+A webpage can contain the following kinds of files:
+- HTML: Content and general layout of a web page.
+- CSS: Styling and advanced layout.
+- Javascript: Code that is run BY YOUR BROWSER.
+- Various media files (image, video, audio...)
+
+--
+
+When you visit a website, all the associated files are transmitted and downloaded onto your computer.
+
+--
+
+Often, a website will ask your web browser to store a small amount of information on your computer. This is called a cookie.
