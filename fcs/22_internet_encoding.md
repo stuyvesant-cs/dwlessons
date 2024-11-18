@@ -31,8 +31,8 @@ template: main
 
 --
 - Examples of protocols:
-  - HTTP - Hyper Text Trasmission Protocol: used to transmit _unencrypted_ web pages.
-  - HTTP - Secrure HTTP: used to transmit _encrypted_ web pages.
+  - HTTP - Hyper Text Transmission Protocol: used to transmit _unencrypted_ web pages.
+  - HTTPS - Secrure HTTP: used to transmit _encrypted_ web pages.
   - NFS - Network File System: used to transmit files to/from a file server.
   - ICMP - Ping: used to check if there is a netowrk path to a computer.
 
