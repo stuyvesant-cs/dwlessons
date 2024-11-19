@@ -18,7 +18,7 @@ All digital data is (eventually) stored and transmitted as binary values.
 - __byte__: 8 bits
 
 --
-- __b__ is used to dennote bits while __B__ is used to dennote bytes
+- b is used to dennote bits while __B__ is used to dennote bytes
 
 --
 
@@ -33,9 +33,9 @@ Useful prefixes
 ???
 Things to discuss:
 - what is a meter?
-  - 1/10,000,000 distace from equator to north pole.
+  - 1/10,000,000 distance from equator to north pole.
   - length of a special rod
-  - length of the path travelled by light in vacuum during a time interval of 1/299792458 of a second
+  - length of the path travelled by light in vacuum during a time interval of 1/299,792,458 of a second
   -
 - what is a gram?
 - MB vs MiB etc
