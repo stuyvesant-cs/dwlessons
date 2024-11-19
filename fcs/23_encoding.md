@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-fcs: We're All Connected
+fcs: A Bit of Information
 </div>]
 
 ---
