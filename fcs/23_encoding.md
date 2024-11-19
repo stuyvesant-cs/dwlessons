@@ -7,60 +7,6 @@ fcs: We're All Connected
 ---
 template: main
 
-### Servers
-- A server is a computer configured to respond to requests coming from other computers (either over a local network or the internet).
-- A server provides data, computing power, or both.
-
---
-- Examples of server types:
-  - Web server (data): stores & transmits websites.
-  - SSH server (computing power): allows remote connection to use a computer.
-  - Database server (data): stores & provides access to information stored in a database.
-  - DNS server (data): stores & provides IP addresses given domain names.
-
---
-- Often, servers provide mutiple services.
-- A client is a computer that connects to and uses a server.
-
----
-template: main
-
-### Protocols
-- A protocol is a set of rules for transmitting data for a specific purpose.
-- Often, different kinds of network-based services will use different protocols.
-
---
-- Examples of protocols:
-  - HTTP - Hyper Text Transmission Protocol: used to transmit _unencrypted_ web pages.
-  - HTTPS - Secrure HTTP: used to transmit _encrypted_ web pages.
-  - NFS - Network File System: used to transmit files to/from a file server.
-  - ICMP - Ping: used to check if there is a netowrk path to a computer.
-
----
-template: main
-
-### Websites
-A web page is a file on (most likely) another computer formatted to be viewed through a web browser. A website is a collection of 1 or more connected web pages.
-
---
-
-A webpage can contain the following kinds of files:
-- HTML: Content and general layout of a web page.
-- CSS: Styling and advanced layout.
-- Javascript: Code that is run BY YOUR BROWSER.
-- Various media files (image, video, audio...)
-
---
-
-When you visit a website, all the associated files are transmitted and downloaded onto your computer.
-
---
-
-Often, a website will ask your web browser to store a small amount of information on your computer. This is called a cookie.
-
----
-template: main
-
 ### Measuring Digital Data
 
 --
@@ -179,3 +125,55 @@ template: main
 $ ls -lh
 $ cat letters.txt
 $ hexdump -C letters.txt
+
+---
+template: main
+
+### Text Encoding
+#### Plain text
+- Plain text does not contain any information about the presentation of text (font, styles, margins, etc).
+
+--
+- Plain text still must be encoded into binray.
+
+--
+- <a href="https://www.asciitable.com/" target="blank">ASCII</a>
+  - 7 bits per character.
+
+--
+- <a href="https://symbl.cc/en/" target="blank">Unicode</a>
+  - Characters have unique values called "code points". How those code points are encoded can be different.
+
+--
+  - <a href="https://en.wikipedia.org/wiki/UTF-8" target="blank">UTF-8</a> is one such encoding, where each character is represented by 1-4 bytes.
+
+#### Formatted Text
+  - RTF, HTML...
+  - Includes formatting information along with the text.
+  - Some formats are more understandable than others.
+
+---
+template: main
+
+### Image Encoding
+There are 2 main ways images are encoded:
+- Vector based:
+  - An image is broken up into drawing commands (i.e. line, circle, sphere...).
+  - Those drawing commands are given numeric values.
+  - The commands, coordinates, and color information are then translated to binary.
+
+--
+- Raster Based
+  - An image is described as a 2D grid of pixels.
+  - Each pixel is given a distinct color value.
+
+--
+#### Colors
+The main color standard used today represents all colors as combination of red, green and blue values. Each color is given a value form 0-255, taking up a single byte.
+
+
+???
+
+* Programs:
+  - Assembly instructions: 16 - 3000? operations
+  - https://godbolt.org
