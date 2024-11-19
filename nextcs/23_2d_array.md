@@ -26,6 +26,9 @@ A __2-dimensional (or 2d) array__ is an array of arrays. In a 2d array, every el
   - Then, you can _instantiate_ each array individually.
   - `grid[0] = new int[5];`
 
+???
+java viz: <https://cscircles.cemc.uwaterloo.ca/java_visualize/#mode=edit>
+
 ---
 template: main
 
