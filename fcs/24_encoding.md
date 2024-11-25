@@ -1,4 +1,4 @@
-+name: main
+name: main
 
 .aim[<div>
 fcs: A Bit of Information
