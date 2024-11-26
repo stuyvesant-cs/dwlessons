@@ -64,7 +64,8 @@ template: main
   - Hard Disk Drives (Magnetic charges)
   - DVDs, CDs (Optical)
 
---
+---
+template: main
 
 ### Memory
 - Short term, fast data access.
