@@ -17,11 +17,13 @@ template: main
 template: main
 
 .left-column[
+#### Patch Properties
 <img src="img/29_patch_paroperties.png" height="550">
 ]
 
 --
 
 .right-column[
+#### Turtle Properties
 <img src="img/29_turtle_properties.png" height="575">
 ]
