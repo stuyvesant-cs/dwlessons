@@ -21,9 +21,7 @@ template: main
 <img src="img/29_patch_paroperties.png">
 ]
 
-
----
-template: main
-
+.right-column [
 #### Turtle Properties
 <img src="img/29_turtle_properties.png">
+]
