@@ -9,8 +9,8 @@ template: main
 
 ### Properties
 - The values that determine how agents appear and how we can identify them are called _properties_.
-- Some properites are _immutible_ meanign they can't be changed.
-- Prperties that are not immutible can be changes using `set`:
+- Some properties are _immutable_ meaning they can't be changed.
+- Properties that are not immutable can be changes using `set`:
   - `set PROPERTY VALUE`
 
 ---
