@@ -20,6 +20,8 @@ template: main
 <img src="img/29_patch_paroperties.png" height="550">
 ]
 
+--
+
 .right-column[
 <img src="img/29_turtle_properties.png" height="575">
 ]
