@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-nextcs: Listing Grievances 
+nextcs: Listing Grievances
 </div>]
 
 ---
@@ -36,7 +36,7 @@ A list is a data structure with the following features:
 - Can store as much data as needed (is automatically resizeable).
 
 --
-- Data can be added or removed at at position in the list.
+- Data can be added or removed at any position in the list.
   - When adding or removing, the existing values should retain their relative positions to each other.
 
 ---
