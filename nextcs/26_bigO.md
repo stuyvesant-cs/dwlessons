@@ -42,6 +42,11 @@ When formally discussing the complexity of an algorithm, we often use __Big O__ 
 --
 - _O(2<sup>n</sup>)_ : exponential. The algorithm's complexity increases exponentially as n increases.
 
+???
+not included:
+- O(n log n)
+- O(n!): even worse than 2^n
+
 ---
 template: main
 
