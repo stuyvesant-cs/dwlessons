@@ -57,4 +57,4 @@ template: main
 - Returns an agent set made up of all the agents in `AGENTS` where `BOOLEAN` evaluates to `true`.
 - examples:
   - `patches with [pxcor = 4]`
-  - `turtles with color > 15`
+  - `turtles with [color > 15]`
