@@ -7,11 +7,10 @@ fcs: It's a Beautiful day int he Neighborhood
 
 ---
 template: main
-### Working with Variables and Properties
+#### Working with Variables and Properties
 
 `let`
-- Sytax:
-  - `let VARIABLE_NAME VALUE`
+- Sytax: `let VARIABLE_NAME VALUE`
 - Declares a local variable.
 - The variable can be referenced within the code block that `let` was used, but not outside of that code block.
 - Once you've created a variable with `let`, you can modify it using `set`.
@@ -40,4 +39,4 @@ template: main
 --
 
 `neighbors4`
-- Reports an agentset containing the 8 patches surrounding the calling agent.
+- Reports an agentset containing the 4 patches that share an edge with the calling agent. (directly up, down, left, and right)
