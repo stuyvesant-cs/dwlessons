@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-fcs: It's a Beautiful day int he Neighborhood
+fcs: It's a Beautiful day int the Neighborhood
 </div>]
 
 
