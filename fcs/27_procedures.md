@@ -92,9 +92,3 @@ to-report blueCount []
   report count patches with [pcolor = blue]
 end
 ```
-
---
-
-When writing a procedure, NetLogo will set the context to the first context-specific command in the procedure. If the procedure does not contain any context-specific commands, then it can be used in any context. Once the context of a procedure is set, you cannot use commands/procedures for different contexts.
-
-For example, if the first line of a procedure is `ca`, then the context will be set to `observer`.
