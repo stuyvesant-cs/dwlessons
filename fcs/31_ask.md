@@ -53,8 +53,8 @@ template: main
 --
 
 `with`
-- `AGENTS with [BOOLEAN]`
-- Returns an agent set made up of all the agents in `AGENTS` where `BOOLEAN` evaluates to `true`.
+- `AGENTS with [BOOLEAN_REPORTER]`
+- Returns an agent set made up of all the agents in `AGENTS` where `BOOLEAN_REPORTER` evaluates to `true`.
 - examples:
   - `patches with [pxcor = 4]`
   - `turtles with [color > 15]`
