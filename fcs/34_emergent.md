@@ -39,3 +39,4 @@ In Conway's Game of Life, time moves in discrete steps (or turns). Each turn, al
 ???
 - [NY Times Article on Life](https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html)
 - [Golly - life simulator](https://golly.sourceforge.io/)
+- [Large golly models](https://golly.sourceforge.io/patterns/golly-access.html)
