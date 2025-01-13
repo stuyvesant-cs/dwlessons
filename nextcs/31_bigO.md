@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-nextcs: Insert Witty Aim Here
+nextcs: 
 </div>]
 
 ---
