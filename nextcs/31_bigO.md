@@ -23,6 +23,7 @@ template: main
 When finding the correct complexity class for an algorithm, it is important to remember that we are analyzing how the algorithm scales as its input increases, not how it performs in a single specific case.
 
 #### Example 0: Sequential Search
+.left-column[
 ```
 for (int i=0; i < data.length; i++) {
   if (data[i] == target) {
@@ -31,5 +32,52 @@ for (int i=0; i < data.length; i++) {
   return -1;
 }
 ```
+]
+
 --
-BigO:
+
+.right-column[
+| n | loops |
+| --- | --- |
+| 10 | 10 |
+| 100 | 100 |
+| 1,000  | 1,000  |
+| 1,000,000 | 1,000,000 |
+]
+
+--
+
+#### BigO: O(n) - linear
+
+---
+template: main
+
+### Classifying Algorithms
+When finding the correct complexity class for an algorithm, it is important to remember that we are analyzing how the algorithm scales as its input increases, not how it performs in a single specific case.
+
+#### Example 0: Sequential Search
+.left-column[
+```
+for (int i=0; i < data.length; i++) {
+  if (data[i] == target) {
+    return i;
+  }
+  return -1;
+}
+```
+]
+
+--
+
+.right-column[
+| n | loops |
+| --- | --- |
+| 10 | 10 |
+| 100 | 100 |
+| 1,000  | 1,000  |
+| 1,000,000 | 1,000,000 |
+]
+
+--
+
+#### BigO: O(n) - linear
