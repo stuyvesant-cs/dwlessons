@@ -1,7 +1,7 @@
 name: main
 
 .aim[<div>
-nextcs: 
+nextcs:
 </div>]
 
 ---
@@ -43,6 +43,7 @@ for (int i=0; i < data.length; i++) {
 | 100 | 100 |
 | 1,000  | 1,000  |
 | 1,000,000 | 1,000,000 |
+
 ]
 
 --
@@ -52,17 +53,81 @@ for (int i=0; i < data.length; i++) {
 ---
 template: main
 
-### Classifying Algorithms
-When finding the correct complexity class for an algorithm, it is important to remember that we are analyzing how the algorithm scales as its input increases, not how it performs in a single specific case.
-
-#### Example 0: Sequential Search
+#### Example 1: Binary Search
 .left-column[
 ```
-for (int i=0; i < data.length; i++) {
-  if (data[i] == target) {
+while (low <= high) {
+  int mid = (low + high) / 2;
+  if (data[mid] == target)
     return i;
-  }
-  return -1;
+  else if (data[mid] < target)
+    low = mid + 1;
+  else
+    high = mid - 1;
+}
+```
+]
+
+--
+
+.right-column[
+| n | loops |
+| --- | --- |
+| 10 | 3 |
+| 100 | 6 |
+| 1,000  | 10 |
+| 1,000,000 | 20 |
+]
+
+--
+
+#### BigO: O(log n) - logarithmic
+
+---
+template: main
+
+#### Example 2: Bubble Sort
+
+```
+for (int sortEnd=haystack.length; sortEnd > 0; sortEnd--) {
+  for(int p0=0; p0<sortEnd-1; p0++) {
+    if (haystack[p0] > haystack[p0+1]) {
+      swap(p0, p0+1);
+    }//swap
+  }//one pass
+}//full sort
+```
+
+--
+
+| n | loops |
+| --- | --- |
+| 10 | 45 |
+| 100 | 4950 |
+| 1,000  | 499500 |
+| 1,000,000 | ~500,000,000,000 |
+
+
+--
+
+#### BigO: O(n<sup>2</sup>) - quadratic
+
+---
+template: main
+
+#### Example 3: Find Min and Max
+
+.left-column[
+```
+int	myMax = haystack[0];
+for( int i=0; i<haystack.length; i++ ) {
+	if (haystack[i] > myMax) {
+    myMax = haystack[i];
+}
+int	myMin = haystack[0][;
+for( int i=0; i<haystack.length; i++ ) {
+if (haystack[i] < myMin) {
+  myMin = haystack[i];
 }
 ```
 ]
