@@ -43,10 +43,10 @@ for (int i=0; i < data.length; i++) {
 | 100 | 100 |
 | 1,000  | 1,000  |
 | 1,000,000 | 1,000,000 |
-
 ]
 
 --
+
 
 #### BigO: O(n) - linear
 
@@ -54,6 +54,8 @@ for (int i=0; i < data.length; i++) {
 template: main
 
 #### Example 1: Binary Search
+Note: Assume `data` is sorted
+
 .left-column[
 ```
 while (low <= high) {
@@ -71,7 +73,7 @@ while (low <= high) {
 --
 
 .right-column[
-| n | loops |
+| n | loop count |
 | --- | --- |
 | 10 | 3 |
 | 100 | 6 |
@@ -100,13 +102,12 @@ for (int sortEnd=haystack.length; sortEnd > 0; sortEnd--) {
 
 --
 
-| n | loops |
-| --- | --- |
-| 10 | 45 |
-| 100 | 4950 |
-| 1,000  | 499500 |
-| 1,000,000 | ~500,000,000,000 |
-
+| n | first loop count | second loop count |
+| --- | --- | --- |
+| 10 | 10 | 45 |
+| 100 | 100 | 4950  |
+| 1,000  | 1,000 | 499,500 |
+| 1,000,000 | 1,000,000  | ~500,000,000,000 |
 
 --
 
@@ -124,7 +125,7 @@ for( int i=0; i<haystack.length; i++ ) {
 	if (haystack[i] > myMax) {
     myMax = haystack[i];
 }
-int	myMin = haystack[0][;
+int	myMin = haystack[0];
 for( int i=0; i<haystack.length; i++ ) {
 if (haystack[i] < myMin) {
   myMin = haystack[i];
@@ -135,12 +136,12 @@ if (haystack[i] < myMin) {
 --
 
 .right-column[
-| n | loops |
-| --- | --- |
-| 10 | 10 |
-| 100 | 100 |
-| 1,000  | 1,000  |
-| 1,000,000 | 1,000,000 |
+| n | first loop count | second loop count |
+| --- | --- | --- |
+| 10 | 10 | 10 |
+| 100 | 100 | 100 |
+| 1,000  | 1,000  | 1,000 |
+| 1,000,000 | 1,000,000 | 1,000,000 |
 ]
 
 --
