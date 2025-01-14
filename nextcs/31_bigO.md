@@ -26,11 +26,10 @@ When finding the correct complexity class for an algorithm, it is important to r
 .left-column[
 ```
 for (int i=0; i < data.length; i++) {
-  if (data[i] == target) {
+  if (data[i] == target)
     return i;
-  }
-  return -1;
 }
+
 ```
 ]
 
@@ -82,6 +81,7 @@ while (low <= high) {
 ]
 
 --
+
 
 #### BigO: O(log n) - logarithmic
 
@@ -138,10 +138,10 @@ if (haystack[i] < myMin) {
 .right-column[
 | n | first loop count | second loop count |
 | --- | --- | --- |
-| 10 | 10 | 10 |
-| 100 | 100 | 100 |
-| 1,000  | 1,000  | 1,000 |
-| 1,000,000 | 1,000,000 | 1,000,000 |
+| 10 | 10 | 20 |
+| 100 | 100 | 200 |
+| 1,000  | 1,000  | 2,000 |
+| 1,000,000 | 1,000,000 | 2,000,000 |
 ]
 
 --
