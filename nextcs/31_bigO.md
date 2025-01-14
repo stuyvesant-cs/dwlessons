@@ -57,6 +57,7 @@ Note: Assume `data` is sorted
 
 .left-column[
 ```
+low = 0; high = data.length - 1;
 while (low <= high) {
   int mid = (low + high) / 2;
   if (data[mid] == target)
