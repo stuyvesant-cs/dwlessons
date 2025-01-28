@@ -15,7 +15,7 @@ template: main
 
 3. You are about to play an old school dungeon-crawler style game. You will play by using the terminal to enter commands. __You will work as a team.__
   - The driver will enter the commands to the terminal
-  - The note taker should attempt to create a map of the dungeo and write down any questions the two of you have while playing.
+  - The note taker should attempt to create a map of the dungeon and write down any questions the two of you have while playing.
 --
 
 4. Driver: Open a terminal. (_what was that keyboard shortcut again?_)

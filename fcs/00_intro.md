@@ -15,7 +15,8 @@ template: main
 .cols[
 .fifty[
 #### Useful information:
-- Class website: www.stuycs.org/fcs00-dw
+- Class website: www.stuycs.org/fcs01-dw
+  - __NEW WEBSITE, NOTE THE 01__
 - Email address: jdyrlandweaver@schools.nyc.gov
 - Office: 301
   - Free periods: 6, 7, 8
@@ -51,33 +52,6 @@ template: main
 
 .center[<img src="img/01_asl_bathroom.png" height="280">]
 
----
-template: main
-
-#### More Class Routines!
-
-.center[
-<img src="img/00_anglog_dig.png" width="400" height="150">
-]
-
---
-
-.center[
-.cols[
-.fifty[
-<img src="img/full_00_analog_fbk_dev.gif" width="400" height="280">
-
-Analog Feedback Device
-]
-
-.fifty[
-<img src="img/00_dig_fbk_dev.png" width="400" height="280">
-
-Digital Feedback Device
-]
-]
-]
-
 
 ---
 template: main
@@ -101,14 +75,8 @@ template: main
 - This group of 4 is a TableBuddy+™ group!
 - There are edge cases with different TableBuddy+™ groupings.
 
----
-template: main
+???
 
-### Task
-In your Table Buddy+™ groups:
-1. Introduce yourselves.
-2. Ponder & discuss the following question:
-   - What do you learn in school?
-   - What is the most important thing you learn?
-3. Select a representative from your group to report back to the class on your findings.
-4. Reporter should make a note of their findings in their notebook.
+ssh -p 8080 -l magnetic magneticscrolls.net
+
+https://www.pcjs.org/software/pcx86/game/infocom/zork1/
