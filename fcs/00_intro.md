@@ -8,7 +8,7 @@ name: main
 template: main
 
 ## Foundations of Computer Science (Annual)
-### MKS21QA
+### MKS22QA
 ### Teacher: Mr. Dyrland-Weaver (Mr. DW)
 
 --
