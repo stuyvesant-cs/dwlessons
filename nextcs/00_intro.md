@@ -58,3 +58,11 @@ template: main
 .center[
 <img src="img/00_delaney_example.png" height="480">
 ]
+
+---
+template: main
+
+### Let's Get Going!
+
+1. Introduce yourself to your TableBuddies+!
+2. As a group, start working on Assignment 01!
