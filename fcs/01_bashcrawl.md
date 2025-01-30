@@ -18,13 +18,13 @@ template: main
 3. You are about to play an old school dungeon-crawler style game. You will play by using the terminal to enter commands. __You will work as a team.__
   - The driver will enter the commands to the terminal
   - The note taker should attempt to create a map of the dungeon and write down any questions the two of you have while playing.
---
 
 ---
 template: main
 
 5. Driver: Enter the following command at the prompt (`$`) and press enter:
    - `scp -r homer.stuy.edu:/bashcrawl ./`
+   - If you get a message about a Fingerprint, type yes and press enter.
    - You will be prompted for your password, enter it and press enter.
   - __DO NOTHING ELSE__
 --
