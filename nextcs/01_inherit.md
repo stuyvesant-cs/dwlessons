@@ -6,13 +6,6 @@ name: main
 ---
 template: main
 
-#### Do Now
-1. Log in
-2. Get the `PathShape` code from the source code repository.
-
----
-template: main
-
 
 #### Inheritance
 An OOP concept that allows classes to be derived from other classes. Broadly speaking, inheritance gives us two powerful tools:
