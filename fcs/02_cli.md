@@ -6,13 +6,6 @@ name: main
 ---
 template: main
 
-### Do Now
-1. Log Into the Computer
-2. Open up a Terminal
-
----
-template: main
-
 ### Terminal Basics
 - A _graphical user interface or (GUI)_, uses a pointer (mouse/trackpad/finger...) to open files and folders.
 
