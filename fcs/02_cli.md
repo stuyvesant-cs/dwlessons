@@ -52,6 +52,7 @@ template: main
   - `$ ls`: List the files in the current directory
   - `$ cat FILE`: View the contents of a file in the Terminal. This works very well for text-based files (.pde, .md, .txt etc.). But not for things like images.
   - `$ cd DIRECTORY`: Change the current directory.
+  - Honorable mention: `$ clear`
 
 ---
 template: main
