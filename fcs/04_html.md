@@ -1,6 +1,6 @@
 name: main
 .aim[<div>
-  fcs: What a Tangled Web We Weave!
+  fcs: Get Hype(ertext markup language)!
   </div>]
 
 
