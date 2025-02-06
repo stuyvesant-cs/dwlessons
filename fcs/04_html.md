@@ -161,13 +161,17 @@ List item  | `<li>`  | Must be inside `ol` or `ul`   | `<li>here's a thing</li>`
 Lists | `<ol>` or `<ul>` | `ol` creates a numbered list, `ul` will use bullets. Must contain list items | `<ol> <li>a thing</li> </ol>`
 
 
+---
+template: main
 
-???
-- Common tags: a, h1, h2, p, img, ul, ol, li
-- a
-- The anchor tag
-- <a> TEXT </a>
-- TEXT becomes an anchor for a link
-- Without extra information, TEXT will not link to anywhere
-- <a href="http://www.stuycs.org">stuycs</a>
-- The href attribute contains the link to follow when stuycs is clicked.
+#### Best Practices for Writing HTML
+- Use newlines and indentation liberally.
+  - HTML ignores whitespace between elements, so newlines and tabs will not mess up your content.
+- Use modern and up to date sources when looking up elements.
+  - [Mozilla mdn docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) should be your first (and usually only) stop when looking up an element.
+- Test your code (reload the page) ofter.
+  - You can also use this [html, css, and javascript playground](https://developer.mozilla.org/en-US/play) to test out any html code.
+- Check your code using an [html validator](https://whatwg.org/validator/)
+- Use a text editor designed for writing code. Some suggestions:
+  - [pulsar](https://pulsar-edit.dev)
+  - [NotePade++](https://notepad-plus-plus.org) (windows only)
