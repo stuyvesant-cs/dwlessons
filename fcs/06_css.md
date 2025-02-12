@@ -23,17 +23,6 @@ manipulate various properties of h1 and p
 ---
 template: main
 
-#### Content Sizing
-- If you do not specify the size of an HTML element, a web browser will attempt to make it large enough to contain whatever content it has.
-- Once you specify a size, a browser will use your values, regardless of how the content may or may not fit.
-- This means that the content may _not_ fit in the element anymore. By default, a browser will let the content bleed out into surrounding elements. this can be modified using th `overflow` property:
-  - `overflow: visible`: default behavior, show the overflowing content.
-  - `overflow: hidden`: do not show the overflowing content (not advised)
-  - `overflow: auto`: add scroll bars to show overflow content.
-
----
-template: main
-
 #### CSS Layouts
 The way the CSS arranges HTML elements is based on the `display` property of those elements. Most elements will either be `block` or `inline`.
 
@@ -57,6 +46,19 @@ mess around with inline and block.
 ---
 template: main
 
+#### Content Sizing
+- If you do not specify the size of an HTML element, a web browser will attempt to make it large enough to contain whatever content it has.
+- Once you specify a size, a browser will use your values, regardless of how the content may or may not fit.
+- This means that the content may _not_ fit in the element anymore. By default, a browser will let the content bleed out into surrounding elements. this can be modified using th `overflow` property:
+  - `overflow: visible`: default behavior, show the overflowing content.
+  - `overflow: hidden`: do not show the overflowing content (not advised)
+  - `overflow: auto`: add scroll bars to show overflow content.
+
+
+
+---
+template: main
+
 #### More Layout Options
 `float` is a CSS property that places an element in the left or right side of its parent element, but allows text and inline elements to wrap around it.
 
@@ -76,7 +78,7 @@ You can add an `id` (unique) or `class` (reusable) attribute to any HTML element
 `.class_name` will select elements based on `class`
 
 
----
+???
 
         # beginning stuff
 
