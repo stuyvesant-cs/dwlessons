@@ -46,18 +46,18 @@ operator | name | example | result
 template: main
 
 #### Number Types
-There are 2 number types, integers and floating points.
+There are 2 number types, `int` (integers) and `float` (floating points).
 
 --
 
 Performing arithmetic operations between values of the same type will return the same type
 
 --
-- except for division, which always returns a floating point.
+- except for division, which always returns a `float`.
 
 --
 
-Performing arithmetic operations with at least one floating point type will always return a floating point value.
+Performing arithmetic operations with at least one `float`  always return a floating point value.
 
 ---
 template: main
