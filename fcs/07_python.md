@@ -15,7 +15,7 @@ _Literal_ : Data that is exactly what it appears to be.
 
 _Variable_ : Data that can potentially change while a program is running.
   - A variable has a name and a value.
-  - In python, variables are created the first time they are used. There is no specific keyword to declare new variables.
+  - In python, variables are created the first time they are assigned a value. There is no specific keyword to declare new variables.
 
 --
 
@@ -82,7 +82,7 @@ operator | name | example | result
 `+`  | addition  | `a + b`  | **return** `a + b`
 `-`  | subtraction  | `a - b`  | **return** `a - b`
 `*`  | multiplication  | `a * b`  | **return** `a * b`
-`**`  | exponentiation  | `a** b`  | **return** `a` to power `b`
+`**`  | exponent  | `a** b`  | **return** `a` to power `b`
 `/`  | division  | `a / b`  | **return** `a / b`
 `//`  | floor division  | `a // b`  | **return** the floor of `a / b`
 `%`  | modulo   | `a % b`  | **return** the remainder of `a / b`
