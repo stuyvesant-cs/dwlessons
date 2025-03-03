@@ -16,7 +16,9 @@ Object at rest tends to stay at rest, an object in motion tends to stay in motio
 --
 #### Newtons Second Law:
 
-$$ Force = ma $$
+<math>
+<mi>F</mi> <mo>=</mo> <mi>m</mi><mi>a</mi>
+</math>
 
 --
 
