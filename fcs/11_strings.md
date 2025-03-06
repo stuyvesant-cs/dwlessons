@@ -7,31 +7,40 @@ name: main
 ---
 template: main
 
-#### Reminder: Test Friday
+#### [BigO  Complexity Graph](https://www.desmos.com/calculator/qhh3ch612h)
 
-#### Do Now (TableBuddies™):
-- Below you will find a list of commands to test out in the Thonny Shell.
-- Run each command, **one at a time** (that is, hit enter/return after each and pause), and discuss amongst yourselves.
-- When you are done, come up with at least one question your group has based on these tests.
-```
-s = 'cat'
-len(s)
-s[1]
-s[-1]
-s[1] =='a'
-s[0] = 'b'
-s + ' dog'
-s
-s * 2
-s + '10'
-s + 10
-```
+.center[
+<img src="img/25_bigo.png" height="550[x]">
+]
+
+---
+template: main
+
+### P vs NP?
+- Algorithms in O(n<sup>2</sup>) category are called polynomial time, they (or better classes) are generally considered "efficient".
+- Algorithms in categories worse than polynomial time are considered _harder_ than others.
+
+--
+- __P__ is a category of problems that can be _solved_ in polynomial time.
+
+--
+- __NP__ is a category of problems that can be _verified_ (checked for correctness) in polynomial time.
+
+--
+  - Generally, NP problems are thought to be harder to solve than to verify.
+
+--
+- It is currently unproven, but widely believed that P &ne; NP.
+
 
 ???
-```
-s = 'bat'
-'na' * 16 + ' ' + s + 'man!'
-```
+  - Check a sudoku solution vs generate one
+  - Prime factor a big number vs checking if factors are correct
+
+- NP Complete is a category of NP problems
+  - If a Polynomial time solution exists for one NP complete problem, it could be adapted to solve ANY NP complete problem.
+- NP Hard is a category of problems _at least_ as hard as NP Problems
+  - They cannot be verified in Polynomial time.
 
 ---
 template: main
@@ -58,6 +67,24 @@ s = 'cat'
 s = 'hello'
 ```
   - This is valid because we are changing what `s` refers to, but not the actual string `'cat'`
+
+???
+```
+s = 'cat'
+len(s)
+s[1]
+s[-1]
+s[1] =='a'
+s[0] = 'b'
+s + ' dog'
+s
+s * 2
+s + '10'
+s + 10
+
+s = 'bat'
+'na' * 16 + ' ' + s + 'man!'
+```
 
 ---
 template: main
