@@ -46,5 +46,5 @@ Create a list by applying a function to each element in an existing list.
       return newg
   ```
 --
-- `map` technically returns an _irerator_, which we can turn into a list with the `list` function:
+- `map` technically returns an _iterator_, which we can turn into a list with the `list` function:
   - `list( map(abs, [8, -17, 34, -3]))`
