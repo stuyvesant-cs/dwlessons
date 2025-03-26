@@ -14,7 +14,7 @@ template: main
 
 --
 
-syntax
+Syntax
 - `s.join( g )`
 - `g` is the source list.
 - `s` is the string that will be placed between the elements of `g`.
