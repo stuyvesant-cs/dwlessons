@@ -9,6 +9,8 @@ template: main
 
 #### turtle
 - Python library that gives you a NetLogo like turtle!
+
+--
 - `turtle.Screen()`
   - Creates & returns a screen (window) so that you can see the actions of a turtle.
  - `.exitonclick()`
@@ -18,6 +20,8 @@ template: main
     window = turtle.Screen()
     window.exitonclick()
     ```
+
+--
 - `turtle.Turtle()`
   - Create and return a turtle object!
   - Turtle objects have many familiar methods like:
