@@ -13,11 +13,15 @@ template: main
 --
 - `turtle.Screen()`
   - Creates & returns a screen (window) so that you can see the actions of a turtle.
- - `.exitonclick()`
-  - Method to run on a screen object so that the program quits.
-- Generally, always have this at the end of a python program that uses turtles:
+  - After creating the screen object you can set the size of the window. Usually, turtles based python programs should start with this:
     ```
     window = turtle.Screen()
+    window.setup(600, 600) #set window size to 600x600 pixels
+    ```
+
+--
+- To make sure that closing the window quits the python program, include this at the very end:
+    ```
     window.exitonclick()
     ```
 
