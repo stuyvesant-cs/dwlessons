@@ -18,7 +18,6 @@ template: main
     window = turtle.Screen()
     window.setup(600, 600) #set window size to 600x600 pixels
     ```
-
 --
 - To make sure that closing the window quits the python program, include this at the very end:
     ```
