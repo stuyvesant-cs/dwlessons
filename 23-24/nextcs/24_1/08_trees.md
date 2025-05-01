@@ -9,14 +9,28 @@ template: main
 #### Trees
 A tree is a __hierarchical__ data structure. Nodes are connected _below_ other nodes.
 
+--
+
 #### Useful Vocabulary
 - root: The top-most node of a tree.
+
+--
 - child node: A node below another node.
+
+--
 - leaf: Any node without child nodes.
+
+--
 - level: How far a node is from the root vertically.
   - The root is level 0
+
+--
 - height: The total number of levels in a tree.
+
+--
 - full: A tree is full if all nodes are either leaves or have the maximum number of child nodes.
+
+--
 - complete: A tree where:
   - All levels except the last have the maximum number of nodes.
   - The last level is filled form the left to the right.
