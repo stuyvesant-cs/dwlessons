@@ -14,6 +14,11 @@ template: main
 ---
 template: main
 
+### Reminder: Test Friday 5/9
+
+---
+template: main
+
 #### Markov Chains
 - State transition model based on probabilities.
 
