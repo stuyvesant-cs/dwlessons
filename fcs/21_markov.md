@@ -7,14 +7,17 @@ name: main
 ---
 template: main
 
-.center[
-![weather](img/Markov1.png)
-]
+### Reminder: Test Friday 5/9
+
 
 ---
 template: main
 
-### Reminder: Test Friday 5/9
+.center[
+![weather](img/Markov1.png)
+]
+
+
 
 ---
 template: main
