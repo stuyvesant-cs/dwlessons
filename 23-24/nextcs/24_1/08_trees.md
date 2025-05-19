@@ -37,14 +37,7 @@ A tree is a __hierarchical__ data structure. Nodes are connected _below_ other n
 
 ???
 
-### Day 2: Exercise: Traversals
-- Review how to evenly space nodes given level.
-- Modify `makeTree` to not always make child nodes.
-  - More likely to make children at levels closer to the root.
-- Pre, post, in.
-  - Write a preorder method (then post, in)
-
-### Day 3: Height & Randomness
+### Day 2: Height & Randomness
 - Recreate tree based on traversals
 - Wrapper methods
 - Calculate height of a tree.
@@ -52,6 +45,14 @@ A tree is a __hierarchical__ data structure. Nodes are connected _below_ other n
 ### Day 4: Lab Balanced
 - Color nodes if left & right subtrees are the same height.
 - Remove nodes
+
+### Day 4: Exercise: Traversals
+- Review how to evenly space nodes given level.
+- Modify `makeTree` to not always make child nodes.
+  - More likely to make children at levels closer to the root.
+- Pre, post, in.
+  - Write a preorder method (then post, in)
+
 
 ### Day 4: Expression trees
 - Math! In tree form!
