@@ -7,13 +7,6 @@ name: main
 ---
 template: main
 
-#### Do Now.
-1. Log in, open Thonny.
-2. Write a program that  generates a random number and prints it to the screen.
-
----
-template: main
-
 #### Using Python to Generate Web Pages
 - A __static__ web page is one where the content does not change unless someone modifies the existing HTML/CSS. The web pages we've made so far are static.
 
@@ -135,7 +128,7 @@ template: main
 - `mode`: `r` (read), `w` (write), `x` (execute).
 
 --
-- `$ chmod a+x foo.py`: Add execute permissions for all areas on foo.py.
+- `$ chmod +x foo.py`: Add execute permissions for all areas on foo.py.
 
 ---
 template: main
@@ -146,7 +139,7 @@ In order to make a server-side dynamic web page, we needed to:
 
 To do that, we need to:
 - Add `!# /usr/bin/python` (or whatever the correct path to python is).
-- Make the program executable with `$ chmod a+x FILE`
+- Make the program executable with `$ chmod +x FILE`
 
 
 --
